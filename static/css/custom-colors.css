@@ -1,0 +1,46 @@
+/* Custom Colors - Override Console Theme Defaults */
+
+/* Bitcoin Theme (Default) */
+:root {
+    --background-color: #ffffff;
+    --font-color: #151515;
+    --primary-color: #f7931a;      /* Bitcoin orange */
+    --secondary-color: #eba059;    /* Bitcoin red */
+    --code-bg-color: #e8eff2;
+}
+
+/* Dark Mode Bitcoin Theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1a1a1a;
+        --font-color: #ffffff;
+        --primary-color: #f7931a;      /* Bitcoin orange */
+        --secondary-color: #eba059;    /* Bitcoin red */
+        --code-bg-color: #2d3436;
+    }
+}
+
+/* Ocean Theme */
+.ocean-theme {
+    --primary-color: #3498db !important;      /* Ocean blue */
+    --secondary-color: #2ecc71 !important;    /* Ocean green */
+}
+
+/* Sunset Theme */
+.sunset-theme {
+    --primary-color: #e67e22 !important;      /* Sunset orange */
+    --secondary-color: #9b59b6 !important;    /* Sunset purple */
+}
+
+/* Forest Theme */
+.forest-theme {
+    --primary-color: #27ae60 !important;      /* Forest green */
+    --secondary-color: #8fbc8f !important;    /* Light green */
+}
+
+/* Custom Theme - Override with your own colors */
+.custom-theme {
+    --primary-color: #ff6b6b !important;      /* Custom red */
+    --secondary-color: #4ecdc4 !important;    /* Custom teal */
+}
+

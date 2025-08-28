@@ -1,0 +1,6 @@
+{{ $theme := .Site.Params.theme_preset | default "bitcoin" }}
+{{ if eq $theme "custom" }}
+custom-theme
+{{ else }}
+{{ $theme }}-theme
+{{ end }}
