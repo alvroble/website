@@ -1,0 +1,74 @@
+baseURL = 'https://alvroble.github.io/'
+languageCode = 'en-us'
+title = 'alvroble'
+theme = 'hugo-theme-console'
+
+# Enable features
+enableGitInfo = false
+enableEmoji = true
+enableRobotsTXT = true
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Pagination
+[pagination]
+  pagerSize = 10
+
+# Console theme specific parameters
+[params]
+  description = "Personal website of Alvaro - Developer, Bitcoin enthusiast, and open source contributor"
+  titleCutting = true
+  animateStyle = "animated zoomIn fast"
+  
+  # Color customization 
+  # Choose your theme: "bitcoin", "ocean", "sunset", "forest", or "custom"
+  theme_preset = "bitcoin"
+  
+  # Custom colors (only used if theme_preset = "custom")
+  [params.custom_colors]
+    light_background = "#ffffff"
+    light_text = "#2c3e50"
+    light_primary = "#e74c3c"
+    light_secondary = "#34495e"
+    dark_background = "#1a1a1a"
+    dark_text = "#ffffff"
+    dark_primary = "#ff6b6b"
+    dark_secondary = "#74b9ff"
+  
+  # Navigation links for Console theme
+  [[params.navlinks]]
+    name = "Home"
+    url = "/"
+  
+  [[params.navlinks]]
+    name = "Posts"
+    url = "/posts/"
+  
+  [[params.navlinks]]
+    name = "Contributions"
+    url = "/contributions/"
+  
+  [[params.navlinks]]
+    name = "About"
+    url = "/about/"
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Output formats
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
