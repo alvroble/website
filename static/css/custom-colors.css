@@ -2,41 +2,24 @@
 
 /* Bitcoin Theme (Default) */
 :root {
-    --background-color: #ffffff;
-    --font-color: #151515;
+    --background-color: #1a1a1a;
+    --font-color: #ffffff;
     --primary-color: #f7931a;      /* Bitcoin orange */
     --secondary-color: #eba059;    /* Bitcoin red */
-    --code-bg-color: #e8eff2;
+    --code-bg-color: #2d3436;
 }
 
 /* Dark Mode Bitcoin Theme - Respects system preference */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
-        --background-color: #1a1a1a;
-        --font-color: #ffffff;
+        --background-color: #ffffff;
+        --font-color: #151515;
         --primary-color: #f7931a;      /* Bitcoin orange */
         --secondary-color: #eba059;    /* Bitcoin red */
-        --code-bg-color: #2d3436;
+        --code-bg-color: #e8eff2;
     }
 }
 
-/* Manual dark mode override */
-[data-theme="dark"] {
-    --background-color: #1a1a1a !important;
-    --font-color: #ffffff !important;
-    --primary-color: #f7931a !important;      /* Bitcoin orange */
-    --secondary-color: #eba059 !important;    /* Bitcoin red */
-    --code-bg-color: #2d3436 !important;
-}
-
-/* Manual light mode override */
-[data-theme="light"] {
-    --background-color: #ffffff !important;
-    --font-color: #151515 !important;
-    --primary-color: #f7931a !important;      /* Bitcoin orange */
-    --secondary-color: #eba059 !important;    /* Bitcoin red */
-    --code-bg-color: #e8eff2 !important;
-}
 
 /* Ocean Theme */
 .ocean-theme {
