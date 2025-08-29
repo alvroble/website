@@ -45,3 +45,11 @@
     --secondary-color: #4ecdc4 !important;    /* Custom teal */
 }
 
+/* Fix the site-name width issue that cuts off "site-name" on mobile */
+@media only screen and (max-width: 850px) {
+    .site-name {
+        width: auto !important; /* Allow full width instead of 2ch */
+        overflow: visible !important; /* Show full text instead of hidden */
+    }
+}
+
