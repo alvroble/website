@@ -48,11 +48,6 @@
                     <meta property="position" content="{{ add $index 1}}" />
                 </li>
                 {{ end }}
-                <li>
-                    <button data-theme-toggle aria-label="Toggle theme" style="background: none; border: none; font-size: inherit; cursor: pointer; color: inherit;">
-                        🔄 Auto
-                    </button>
-                </li>
             </ul>
           </nav>
         </div>
@@ -63,8 +58,5 @@
         {{ end }}
         {{ partial "footer.html" . }}
     </div>
-    
-    <!-- Theme toggle script -->
-    <script src="{{ "js/theme-toggle.js" | absURL }}"></script>
   </body>
 </html>
