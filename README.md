@@ -110,15 +110,23 @@ The contributions page is designed to display:
 
 ## Deployment
 
-### GitHub Pages
+### Automated GitHub Pages Deployment
 
-1. Push your code to GitHub
-2. Enable GitHub Pages in repository settings
-3. Set source to "Deploy from a branch"
-4. Select the `main` branch and `/docs` folder
-5. Update `hugo.toml` to output to `docs/` instead of `public/`
+The site is automatically deployed to GitHub Pages using GitHub Actions:
+
+1. **Push to main branch**: Any push to the `main` branch triggers the deployment workflow
+2. **Automatic build**: The workflow installs Hugo, builds the site with `--minify`, and deploys to GitHub Pages
+3. **GitHub Pages setup**: Ensure GitHub Pages is enabled in repository settings with source set to "GitHub Actions"
+
+The deployment workflow (`.github/workflows/deploy.yml`):
+- Installs Hugo Extended v0.146.4
+- Initializes git submodules for the theme
+- Builds the site with production optimizations
+- Deploys to GitHub Pages using the official action
 
 ### Manual Deployment
+
+For manual deployment to other hosting providers:
 
 1. Build the site: `hugo --minify`
 2. Upload the contents of `public/` to your web server
