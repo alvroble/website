@@ -1,0 +1,24 @@
+# Vercel deployment configuration
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.146.4"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1",
+      "status": 200
+    }
+  ]
+}

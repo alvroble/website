@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Hugo development server
+  hugo-dev:
+    image: hugomods/hugo:exts
+    container_name: alvroble-hugo-dev
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: hugo server --bind 0.0.0.0 --buildDrafts --liveReload
+    ports:
+      - "1313:1313"
+    networks:
+      - hugo-net
+    profiles:
+      - dev
+
+  # Production Hugo site with Nginx
+  hugo-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alvroble-website
+    ports:
+      - "80:80"
+    networks:
+      - hugo-net
+    profiles:
+      - prod
+    restart: unless-stopped
+
+  # Nginx with SSL termination (for production with Let's Encrypt)
+  nginx-ssl:
+    image: nginx:alpine
+    container_name: alvroble-nginx-ssl
+    volumes:
+      - ./docker/nginx-ssl.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - hugo-prod
+    networks:
+      - hugo-net
+    profiles:
+      - ssl
+    restart: unless-stopped
+
+networks:
+  hugo-net:
+    driver: bridge

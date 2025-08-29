@@ -1,0 +1,29 @@
+# Package.json for Vercel and other platforms that expect it
+{
+  "name": "alvroble-website",
+  "version": "1.0.0",
+  "description": "Personal website built with Hugo",
+  "scripts": {
+    "build": "hugo --minify",
+    "dev": "hugo server --buildDrafts --liveReload",
+    "start": "hugo server",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvroble/website.git"
+  },
+  "keywords": [
+    "hugo",
+    "website",
+    "blog",
+    "static-site"
+  ],
+  "author": "Alvaro Robles",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.0.0",
+    "vercel": "^32.0.0"
+  }
+}
