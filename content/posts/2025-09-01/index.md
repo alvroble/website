@@ -1,10 +1,11 @@
 +++
-title = "Welcome"
-date = "2025-08-29"
+title = "My First Blog Post"
+date = "2025-09-01"
 draft = false
+categories = ["Development", "Personal"]
+tags = ["hugo", "website", "first-post"]
+description = "Welcome to my first blog post"
 +++
-
-# Welcome to My Website
 
 Hi, I'm **Alvaro** 👋
 
@@ -20,7 +21,3 @@ Track my open source contributions across different projects.
 - **GitHub**: [@alvroble](https://github.com/alvroble)
 - **Nostr**: `npub1kerlj0syxlrkyrq3jgtwwx0n0k4ctd86yzvd6u5vnrmzxhhrt2xsjk9f7n`
 - **Donations**: ₿bolt12@alvroble.com
-
----
-
-*"The best way to predict the future is to invent it."* - Alan Kay
