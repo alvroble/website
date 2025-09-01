@@ -1,0 +1,172 @@
+{{ define "main" }}
+
+{{ $githubData := .Site.Data.github_contributions }}
+
+<div class="contributions-page">
+  <h1>{{ .Title }}</h1>
+  
+  {{ .Content }}
+
+  {{ if $githubData }}
+    <!-- User Profile Section -->
+    <div class="github-profile">
+      <div class="profile-header">
+        <img src="{{ $githubData.user.avatar_url }}" alt="{{ $githubData.user.username }}" class="profile-avatar">
+        <div class="profile-info">
+          <h2><a href="{{ $githubData.user.profile_url }}" target="_blank">@{{ $githubData.user.username }}</a></h2>
+          <p class="last-updated">Last updated: {{ $githubData.user.last_updated | time.Format "January 2, 2006 at 3:04 PM MST" }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Statistics Section -->
+    <div class="statistics-grid">
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_contributions }}</div>
+        <div class="stat-label">Total Contributions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_repositories }}</div>
+        <div class="stat-label">Repositories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_stars }}</div>
+        <div class="stat-label">Stars Received</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_commits }}</div>
+        <div class="stat-label">Commits</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_pull_requests }}</div>
+        <div class="stat-label">Pull Requests</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">{{ $githubData.statistics.total_issues }}</div>
+        <div class="stat-label">Issues</div>
+      </div>
+    </div>
+
+    <!-- Recent Activity Section -->
+    {{ if $githubData.recent_activity }}
+    <section class="recent-activity">
+      <h2>Recent Activity</h2>
+      <div class="activity-list">
+        {{ range first 10 $githubData.recent_activity }}
+        <div class="activity-item">
+          <div class="activity-icon {{ .type | lower }}">
+            {{ if eq .type "PushEvent" }}📝
+            {{ else if eq .type "PullRequestEvent" }}🔀
+            {{ else if eq .type "IssuesEvent" }}🐛
+            {{ else if eq .type "CreateEvent" }}✨
+            {{ else }}📋
+            {{ end }}
+          </div>
+          <div class="activity-content">
+            <div class="activity-title">
+              <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+            </div>
+            <div class="activity-meta">
+              <span class="activity-repo">
+                <a href="{{ .repo_url }}" target="_blank">{{ .repo }}</a>
+              </span>
+              <span class="activity-time">{{ .created_at | time.Format "Jan 2, 2006" }}</span>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- Pull Requests Section -->
+    {{ if or $githubData.pull_requests.open $githubData.pull_requests.merged }}
+    <section class="pull-requests">
+      <h2>Pull Requests</h2>
+      
+      {{ if $githubData.pull_requests.open }}
+      <div class="pr-section">
+        <h3>Open Pull Requests</h3>
+        <div class="pr-list">
+          {{ range $githubData.pull_requests.open }}
+          <div class="pr-item open">
+            <div class="pr-status">🟡</div>
+            <div class="pr-content">
+              <div class="pr-title">
+                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+              </div>
+              <div class="pr-meta">
+                <span class="pr-repo">{{ .repo }}</span>
+                <span class="pr-number">#{{ .number }}</span>
+                <span class="pr-date">{{ .created_at | time.Format "Jan 2, 2006" }}</span>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{ if $githubData.pull_requests.merged }}
+      <div class="pr-section">
+        <h3>Recently Merged</h3>
+        <div class="pr-list">
+          {{ range first 5 $githubData.pull_requests.merged }}
+          <div class="pr-item merged">
+            <div class="pr-status">✅</div>
+            <div class="pr-content">
+              <div class="pr-title">
+                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+              </div>
+              <div class="pr-meta">
+                <span class="pr-repo">{{ .repo }}</span>
+                <span class="pr-number">#{{ .number }}</span>
+                <span class="pr-date">{{ .merged_at | time.Format "Jan 2, 2006" }}</span>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
+    <!-- Repositories Section -->
+    {{ if $githubData.repositories }}
+    <section class="repositories">
+      <h2>Repositories</h2>
+      <div class="repo-grid">
+        {{ range first 12 $githubData.repositories }}
+        <div class="repo-card">
+          <div class="repo-header">
+            <h3 class="repo-name">
+              <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+            </h3>
+            {{ if .language }}
+            <span class="repo-language">{{ .language }}</span>
+            {{ end }}
+          </div>
+          {{ if .description }}
+          <p class="repo-description">{{ .description }}</p>
+          {{ end }}
+          <div class="repo-stats">
+            <span class="repo-stat">⭐ {{ .stars }}</span>
+            <span class="repo-stat">🍴 {{ .forks }}</span>
+            <span class="repo-updated">{{ .updated_at | time.Format "Jan 2" }}</span>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+  {{ else }}
+    <div class="no-data">
+      <p>GitHub contributions data is not available. Please check back later or contact the site administrator.</p>
+    </div>
+  {{ end }}
+
+</div>
+
+{{ end }}
