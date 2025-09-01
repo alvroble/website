@@ -34,7 +34,7 @@ I believe in the power of open source software to create a better, more decentra
 - **GitHub**: [@alvroble](https://github.com/alvroble)
 - **Twitter**: [@alvunchained](https://twitter.com/alvunchained)
 - **Nostr**: `npub1kerlj0syxlrkyrq3jgtwwx0n0k4ctd86yzvd6u5vnrmzxhhrt2xsjk9f7n`
-- **Email**: bolt12@alvroble.com
+- **Donations**: ₿bolt12@alvroble.com
 
 
 ---
