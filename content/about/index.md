@@ -15,7 +15,7 @@ I contribute to various open source projects, with a focus on:
 - **Hardware wallet projects** like SeedSigner
 - **Developer tools** and libraries
 
-Also I **study** Bitcoin. You should too.
+I also **study** Bitcoin. You should too.
 
 ## Background
 
