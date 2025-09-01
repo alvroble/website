@@ -2,13 +2,22 @@ const { Octokit } = require('@octokit/rest');
 const fs = require('fs');
 const path = require('path');
 
+// Configuration constants
+const USERNAME = 'alvroble';
+const PR_FILTER_DATE = '2024-01-01'; // Only include PRs from this date onwards
+const SHOW_REPOSITORIES = [
+  'alvroble/seedsigner-os',
+  'alvroble/seedsigner',
+  'alvroble/pydnssec-prover',
+  'alvroble/SeedSigner-WorldMap',
+  'alvroble/embit',
+]; // Only show these repositories (set to [] to show all)
+const DATA_FILE = path.join(__dirname, '..', 'data', 'github_contributions.json');
+
 // Initialize Octokit
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
-
-const USERNAME = 'alvroble';
-const DATA_FILE = path.join(__dirname, '..', 'data', 'github_contributions.json');
 
 async function fetchUserData() {
   try {
@@ -111,18 +120,27 @@ async function fetchRepositories() {
       sort: 'updated'
     });
 
-    return repos.map(repo => ({
-      id: repo.id,
-      name: repo.name,
-      full_name: repo.full_name,
-      description: repo.description,
-      url: repo.html_url,
-      language: repo.language,
-      stars: repo.stargazers_count,
-      forks: repo.forks_count,
-      updated_at: repo.updated_at,
-      is_fork: repo.fork
-    }));
+    return repos
+      .filter(repo => {
+        // If SHOW_REPOSITORIES is empty, show all repositories
+        if (SHOW_REPOSITORIES.length === 0) {
+          return true;
+        }
+        // Otherwise, only show repositories in the list
+        return SHOW_REPOSITORIES.includes(repo.full_name);
+      })
+      .map(repo => ({
+        id: repo.id,
+        name: repo.name,
+        full_name: repo.full_name,
+        description: repo.description,
+        url: repo.html_url,
+        language: repo.language,
+        stars: repo.stargazers_count,
+        forks: repo.forks_count,
+        updated_at: repo.updated_at,
+        is_fork: repo.fork
+      }));
   } catch (error) {
     console.error('Error fetching repositories:', error);
     return [];
@@ -131,9 +149,9 @@ async function fetchRepositories() {
 
 async function fetchPullRequests() {
   try {
-    // Search for pull requests by the user
+    // Search for pull requests by the user from the configured date onwards
     const { data: searchResults } = await octokit.rest.search.issuesAndPullRequests({
-      q: `author:${USERNAME} type:pr`,
+      q: `author:${USERNAME} type:pr created:>=${PR_FILTER_DATE}`,
       sort: 'updated',
       order: 'desc',
       per_page: 30
@@ -144,6 +162,8 @@ async function fetchPullRequests() {
       merged: [],
       closed: []
     };
+
+    const filterDate = new Date(PR_FILTER_DATE);
 
     for (const pr of searchResults.items) {
       const prData = {
@@ -160,12 +180,16 @@ async function fetchPullRequests() {
         merged_at: pr.pull_request?.merged_at
       };
 
-      if (prData.merged_at) {
-        pullRequests.merged.push(prData);
-      } else if (prData.state === 'open') {
-        pullRequests.open.push(prData);
-      } else {
-        pullRequests.closed.push(prData);
+      // Additional filter to ensure we only include PRs from the configured date onwards
+      const createdDate = new Date(prData.created_at);
+      if (createdDate >= filterDate) {
+        if (prData.merged_at) {
+          pullRequests.merged.push(prData);
+        } else if (prData.state === 'open') {
+          pullRequests.open.push(prData);
+        } else {
+          pullRequests.closed.push(prData);
+        }
       }
     }
 

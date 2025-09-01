@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <!-- Statistics Section -->
+    <!-- Statistics Section
     <div class="statistics-grid">
       <div class="stat-card">
         <div class="stat-number">{{ $githubData.statistics.total_contributions }}</div>
@@ -45,9 +45,9 @@
         <div class="stat-number">{{ $githubData.statistics.total_issues }}</div>
         <div class="stat-label">Issues</div>
       </div>
-    </div>
+    </div>-->
 
-    <!-- Recent Activity Section -->
+    <!-- Recent Activity Section 
     {{ if $githubData.recent_activity }}
     <section class="recent-activity">
       <h2>Recent Activity</h2>
@@ -77,13 +77,11 @@
         {{ end }}
       </div>
     </section>
-    {{ end }}
+    {{ end }}-->
 
     <!-- Pull Requests Section -->
     {{ if or $githubData.pull_requests.open $githubData.pull_requests.merged }}
     <section class="pull-requests">
-      <h2>Pull Requests</h2>
-      
       {{ if $githubData.pull_requests.open }}
       <div class="pr-section">
         <h3>Open Pull Requests</h3>
