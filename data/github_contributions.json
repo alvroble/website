@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-01T10:02:16.520Z"
+    "last_updated": "2025-09-02T03:04:57.136Z"
   },
   "statistics": {
     "total_contributions": 100,
@@ -12,9 +12,39 @@
     "total_forks": 0,
     "total_issues": 1,
     "total_pull_requests": 3,
-    "total_commits": 85
+    "total_commits": 89
   },
   "recent_activity": [
+    {
+      "id": "54082294528",
+      "type": "PushEvent",
+      "created_at": "2025-09-01T09:50:13Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Improve contrib analysis",
+      "url": "https://github.com/alvroble/website/commit/88abad423a5d3416fa745e6f12b19771e70f170e"
+    },
+    {
+      "id": "54081815800",
+      "type": "PushEvent",
+      "created_at": "2025-09-01T09:40:04Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Improve contrib analysis",
+      "url": "https://github.com/alvroble/website/commit/233b70f1ddd4e6e908d2985d8b735619d946c2de"
+    },
+    {
+      "id": "54080401132",
+      "type": "PushEvent",
+      "created_at": "2025-09-01T09:10:55Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Reorganise content",
+      "url": "https://github.com/alvroble/website/commit/f591e4278a670466e8f7105ac2fa5a76cee9595e"
+    },
     {
       "id": "54050057881",
       "type": "PullRequestEvent",
@@ -184,36 +214,6 @@
       "action": null,
       "title": "Dark mode button",
       "url": "https://github.com/alvroble/website/commit/35825d5fba2e6c690c728f819fc29e12351684d5"
-    },
-    {
-      "id": "53992278857",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T07:38:05Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Add GitHub Actions workflow for Hugo deployment to Pages\n\nCo-authored-by: alvroble <50918598+alvroble@users.noreply.github.com>",
-      "url": "https://github.com/alvroble/website/commit/3c781881053338533487d506aeeae25870febde2"
-    },
-    {
-      "id": "53992278329",
-      "type": "PullRequestEvent",
-      "created_at": "2025-08-29T07:38:05Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": "closed",
-      "title": "Add GitHub Actions workflow for automated Hugo site deployment to GitHub Pages",
-      "url": "https://github.com/alvroble/website/pull/2"
-    },
-    {
-      "id": "53991703468",
-      "type": "DeleteEvent",
-      "created_at": "2025-08-29T07:23:21Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/undefined"
     }
   ],
   "repositories": [
