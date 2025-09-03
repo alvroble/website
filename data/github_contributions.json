@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-02T03:04:57.136Z"
+    "last_updated": "2025-09-03T02:53:42.495Z"
   },
   "statistics": {
     "total_contributions": 100,
@@ -281,19 +281,6 @@
   "pull_requests": {
     "open": [
       {
-        "id": 3146052270,
-        "number": 91,
-        "title": "[Enhancement] Add libraqm support for RTL languages",
-        "url": "https://github.com/SeedSigner/seedsigner-os/pull/91",
-        "repo": "SeedSigner/seedsigner-os",
-        "repo_url": "https://github.com/SeedSigner/seedsigner-os",
-        "state": "open",
-        "created_at": "2025-06-14T11:45:13Z",
-        "updated_at": "2025-08-30T20:38:01Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
         "id": 2751164936,
         "number": 636,
         "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
@@ -426,6 +413,19 @@
     ],
     "merged": [
       {
+        "id": 3146052270,
+        "number": 91,
+        "title": "[Enhancement] Add libraqm support for RTL languages",
+        "url": "https://github.com/SeedSigner/seedsigner-os/pull/91",
+        "repo": "SeedSigner/seedsigner-os",
+        "repo_url": "https://github.com/SeedSigner/seedsigner-os",
+        "state": "closed",
+        "created_at": "2025-06-14T11:45:13Z",
+        "updated_at": "2025-09-02T18:49:38Z",
+        "closed_at": "2025-09-02T18:49:38Z",
+        "merged_at": "2025-09-02T18:49:38Z"
+      },
+      {
         "id": 3284781352,
         "number": 3,
         "title": "Enables CLI feature needed by uniffi_bindgen_main()",
@@ -522,6 +522,18 @@
   },
   "issues": {
     "open": [
+      {
+        "id": 3376559226,
+        "number": 63,
+        "title": "SeedSigner + BIP-353: Human-Readable Bitcoin Payments",
+        "url": "https://github.com/TABConf/7.tabconf.com/issues/63",
+        "repo": "TABConf/7.tabconf.com",
+        "repo_url": "https://github.com/TABConf/7.tabconf.com",
+        "state": "open",
+        "created_at": "2025-09-02T15:41:28Z",
+        "updated_at": "2025-09-02T15:53:19Z",
+        "closed_at": null
+      },
       {
         "id": 3300081356,
         "number": 1,
