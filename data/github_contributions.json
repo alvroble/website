@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-03T02:53:42.495Z"
+    "last_updated": "2025-09-04T02:54:15.099Z"
   },
   "statistics": {
     "total_contributions": 100,
@@ -15,6 +15,16 @@
     "total_commits": 89
   },
   "recent_activity": [
+    {
+      "id": "54199389336",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-09-03T14:40:15Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[l10n] Enable Arabic and Persian",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/772"
+    },
     {
       "id": "54082294528",
       "type": "PushEvent",
@@ -204,16 +214,6 @@
       "action": null,
       "title": "Make default dark",
       "url": "https://github.com/alvroble/website/commit/657041b2137f7272dd43e245ae780541124670bc"
-    },
-    {
-      "id": "53994156179",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T08:24:19Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Dark mode button",
-      "url": "https://github.com/alvroble/website/commit/35825d5fba2e6c690c728f819fc29e12351684d5"
     }
   ],
   "repositories": [
@@ -281,6 +281,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 3274377144,
+        "number": 796,
+        "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/796",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2025-07-29T17:11:10Z",
+        "updated_at": "2025-09-03T04:30:09Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 2751164936,
         "number": 636,
         "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
@@ -290,19 +303,6 @@
         "state": "open",
         "created_at": "2024-12-19T18:35:59Z",
         "updated_at": "2025-08-19T15:36:54Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 3274377144,
-        "number": 796,
-        "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/796",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2025-07-29T17:11:10Z",
-        "updated_at": "2025-08-18T15:16:50Z",
         "closed_at": null,
         "merged_at": null
       },
