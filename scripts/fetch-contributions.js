@@ -4,7 +4,7 @@ const path = require('path');
 
 // Configuration constants
 const USERNAME = 'alvroble';
-const PR_FILTER_DATE = '2024-01-01'; // Only include PRs from this date onwards
+const PR_FILTER_DATE = '2023-01-01'; // Only include PRs from this date onwards
 const SHOW_REPOSITORIES = [
   'alvroble/seedsigner-os',
   'alvroble/seedsigner',
