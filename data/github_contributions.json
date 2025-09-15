@@ -3,18 +3,58 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-14T03:01:06.153Z"
+    "last_updated": "2025-09-15T03:06:11.242Z"
   },
   "statistics": {
-    "total_contributions": 61,
+    "total_contributions": 57,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 3,
-    "total_commits": 82
+    "total_commits": 98
   },
   "recent_activity": [
+    {
+      "id": "54672776627",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T15:15:02Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "fix: Update capitalization to Title Case for titles and Sentence case for buttons (#648)",
+      "url": "https://github.com/alvroble/seedsigner/commit/49dea74eb32c3cddbfcc039224af7e9af2d6eb0d"
+    },
+    {
+      "id": "54669243409",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T11:36:52Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "add core 30.0rc1 and provable crypto workbook topics",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/5e786cccb3fdaf64f4237f04acf54d83cddd5c33"
+    },
+    {
+      "id": "54669220330",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T11:35:10Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "add core 30.0rc1 and provable crypto workbook topics",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/7a313af0d43fc61b16b9f312f5a7c7c6fc2c9eb7"
+    },
+    {
+      "id": "54669171319",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T11:31:32Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "add core 30.0rc1 and provable crypto workbook topics",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/cfe610588657ccf27eb35206fa74e7ccb19e241c"
+    },
     {
       "id": "54199389336",
       "type": "IssueCommentEvent",
@@ -174,49 +214,21 @@
       "action": null,
       "title": "favicon",
       "url": "https://github.com/alvroble/website/commit/32db0c7f2f64ad00612b7785315444238db8d9e8"
-    },
-    {
-      "id": "54016288660",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T16:59:51Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Fix mobile",
-      "url": "https://github.com/alvroble/website/commit/f7eaf53ed86b63c46fc8be5a0f22263b7f7ff58d"
-    },
-    {
-      "id": "54005631454",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T12:55:06Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/657041b2137f7272dd43e245ae780541124670bc"
-    },
-    {
-      "id": "54005486624",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T12:51:42Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Fix logo and title visibility on mobile",
-      "url": "https://github.com/alvroble/website/commit/f4d165ebdc437ee660c44ca877abbfae0c88145d"
-    },
-    {
-      "id": "53994330657",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T08:28:27Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Make default dark",
-      "url": "https://github.com/alvroble/website/commit/657041b2137f7272dd43e245ae780541124670bc"
     }
   ],
   "repositories": [
+    {
+      "id": 821708857,
+      "name": "seedsigner",
+      "full_name": "alvroble/seedsigner",
+      "description": "Use an air-gapped Raspberry Pi Zero to sign for Bitcoin transactions! (and do other cool stuff)",
+      "url": "https://github.com/alvroble/seedsigner",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "updated_at": "2025-09-14T15:15:08Z",
+      "is_fork": true
+    },
     {
       "id": 978259280,
       "name": "seedsigner-os",
@@ -227,18 +239,6 @@
       "stars": 0,
       "forks": 0,
       "updated_at": "2025-08-30T08:03:37Z",
-      "is_fork": true
-    },
-    {
-      "id": 821708857,
-      "name": "seedsigner",
-      "full_name": "alvroble/seedsigner",
-      "description": "Use an air-gapped Raspberry Pi Zero to sign for Bitcoin transactions! (and do other cool stuff)",
-      "url": "https://github.com/alvroble/seedsigner",
-      "language": "Python",
-      "stars": 0,
-      "forks": 0,
-      "updated_at": "2025-08-16T10:46:49Z",
       "is_fork": true
     },
     {
@@ -289,7 +289,7 @@
         "repo_url": "https://github.com/SeedSigner/seedsigner",
         "state": "open",
         "created_at": "2025-07-29T17:11:10Z",
-        "updated_at": "2025-09-03T04:30:09Z",
+        "updated_at": "2025-09-14T15:26:42Z",
         "closed_at": null,
         "merged_at": null
       },
