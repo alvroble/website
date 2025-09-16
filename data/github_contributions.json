@@ -3,18 +3,58 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-15T03:06:11.242Z"
+    "last_updated": "2025-09-16T02:55:05.917Z"
   },
   "statistics": {
-    "total_contributions": 57,
+    "total_contributions": 58,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 3,
-    "total_commits": 98
+    "total_commits": 81
   },
   "recent_activity": [
+    {
+      "id": "54673800705",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T16:20:08Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "add core 30.0rc1 and provable crypto workbook topics",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/ffc7e900dcc07c05578c1da529ffcc9046c8afd7"
+    },
+    {
+      "id": "54673307850",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T15:48:47Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "add core 30.0rc1 and provable crypto workbook topics",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/9aec1e299253ab990710f63893b4bd714e8fceec"
+    },
+    {
+      "id": "54672967394",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-09-14T15:26:43Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/796"
+    },
+    {
+      "id": "54672947434",
+      "type": "PushEvent",
+      "created_at": "2025-09-14T15:25:30Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "fix: Update capitalization to Title Case for titles and Sentence case for buttons (#648)",
+      "url": "https://github.com/alvroble/seedsigner/commit/1b70aa03795025f86ae44c40794f0351bd1986dd"
+    },
     {
       "id": "54672776627",
       "type": "PushEvent",
@@ -174,46 +214,6 @@
       "action": null,
       "title": "Modify index.html",
       "url": "https://github.com/alvroble/hugo-theme-console/commit/a7820c6f70c8763aefc7e72b02d49776e25fde99"
-    },
-    {
-      "id": "54017868220",
-      "type": "ForkEvent",
-      "created_at": "2025-08-29T17:42:49Z",
-      "repo": "mrmierzejewski/hugo-theme-console",
-      "repo_url": "https://github.com/mrmierzejewski/hugo-theme-console",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/mrmierzejewski/hugo-theme-console/commit/undefined"
-    },
-    {
-      "id": "54017530638",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T17:32:53Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Modify info",
-      "url": "https://github.com/alvroble/website/commit/c393a105bdbd0985571c5bd235b56b1219b30ca1"
-    },
-    {
-      "id": "54016738372",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T17:11:26Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "favicon",
-      "url": "https://github.com/alvroble/website/commit/6cc0e360e4eba1259dd6eeac9808c97a9fcfd050"
-    },
-    {
-      "id": "54016489553",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T17:04:58Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "favicon",
-      "url": "https://github.com/alvroble/website/commit/32db0c7f2f64ad00612b7785315444238db8d9e8"
     }
   ],
   "repositories": [
