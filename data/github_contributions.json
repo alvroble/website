@@ -3,18 +3,38 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-20T02:52:54.097Z"
+    "last_updated": "2025-09-21T03:06:19.808Z"
   },
   "statistics": {
-    "total_contributions": 47,
+    "total_contributions": 49,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 3,
-    "total_commits": 77
+    "total_commits": 78
   },
   "recent_activity": [
+    {
+      "id": "54950021131",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-09-19T18:47:29Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Recent model WaveShare hats have a different ST7789 screen",
+      "url": "https://github.com/SeedSigner/seedsigner/issues/726"
+    },
+    {
+      "id": "54948226891",
+      "type": "PushEvent",
+      "created_at": "2025-09-19T17:59:55Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "agradecimiento a MIL",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/130962fb5f634082a2a0cec5104d32d67d4059fd"
+    },
     {
       "id": "54673800705",
       "type": "PushEvent",
@@ -194,26 +214,6 @@
       "action": "created",
       "title": "[Refactor] use _Seed_cls to handle seed type",
       "url": "https://github.com/SeedSigner/seedsigner/pull/807"
-    },
-    {
-      "id": "54017972915",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T17:46:03Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Update theme submodule to use forked repository",
-      "url": "https://github.com/alvroble/website/commit/9f5ae60604ee7c646f91981e03cdfc0aa70849d1"
-    },
-    {
-      "id": "54017905576",
-      "type": "PushEvent",
-      "created_at": "2025-08-29T17:43:58Z",
-      "repo": "alvroble/hugo-theme-console",
-      "repo_url": "https://github.com/alvroble/hugo-theme-console",
-      "action": null,
-      "title": "Modify index.html",
-      "url": "https://github.com/alvroble/hugo-theme-console/commit/a7820c6f70c8763aefc7e72b02d49776e25fde99"
     }
   ],
   "repositories": [
