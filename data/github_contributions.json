@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-24T02:57:46.412Z"
+    "last_updated": "2025-09-25T03:00:07.286Z"
   },
   "statistics": {
-    "total_contributions": 51,
+    "total_contributions": 57,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
@@ -15,6 +15,66 @@
     "total_commits": 78
   },
   "recent_activity": [
+    {
+      "id": "55153709737",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-24T17:25:46Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
+    {
+      "id": "55094970255",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-09-23T17:07:54Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
+    {
+      "id": "55094970182",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-23T17:07:55Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
+    {
+      "id": "55093852435",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-09-23T16:40:38Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
+    {
+      "id": "55093852251",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-23T16:42:47Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
+    {
+      "id": "55093852120",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-23T16:42:47Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+    },
     {
       "id": "54988295927",
       "type": "WatchEvent",
@@ -154,66 +214,6 @@
       "action": null,
       "title": "add core 30.0rc1 and provable crypto workbook topics",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/7a313af0d43fc61b16b9f312f5a7c7c6fc2c9eb7"
-    },
-    {
-      "id": "54669171319",
-      "type": "PushEvent",
-      "created_at": "2025-09-14T11:31:32Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "add core 30.0rc1 and provable crypto workbook topics",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/cfe610588657ccf27eb35206fa74e7ccb19e241c"
-    },
-    {
-      "id": "54199389336",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-09-03T14:40:15Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[l10n] Enable Arabic and Persian",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/772"
-    },
-    {
-      "id": "54082294528",
-      "type": "PushEvent",
-      "created_at": "2025-09-01T09:50:13Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Improve contrib analysis",
-      "url": "https://github.com/alvroble/website/commit/88abad423a5d3416fa745e6f12b19771e70f170e"
-    },
-    {
-      "id": "54081815800",
-      "type": "PushEvent",
-      "created_at": "2025-09-01T09:40:04Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Improve contrib analysis",
-      "url": "https://github.com/alvroble/website/commit/233b70f1ddd4e6e908d2985d8b735619d946c2de"
-    },
-    {
-      "id": "54080401132",
-      "type": "PushEvent",
-      "created_at": "2025-09-01T09:10:55Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Reorganise content",
-      "url": "https://github.com/alvroble/website/commit/f591e4278a670466e8f7105ac2fa5a76cee9595e"
-    },
-    {
-      "id": "54050057881",
-      "type": "PullRequestEvent",
-      "created_at": "2025-08-31T06:59:21Z",
-      "repo": "SeedSigner/buildroot",
-      "repo_url": "https://github.com/SeedSigner/buildroot",
-      "action": "closed",
-      "title": "Add libraqm support",
-      "url": "https://github.com/SeedSigner/buildroot/pull/2"
     }
   ],
   "repositories": [
