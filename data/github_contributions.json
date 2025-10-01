@@ -3,15 +3,15 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-09-30T02:56:58.435Z"
+    "last_updated": "2025-10-01T03:09:53.731Z"
   },
   "statistics": {
-    "total_contributions": 29,
+    "total_contributions": 28,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 1,
+    "total_pull_requests": 0,
     "total_commits": 56
   },
   "recent_activity": [
@@ -531,7 +531,7 @@
         "repo_url": "https://github.com/TABConf/7.tabconf.com",
         "state": "open",
         "created_at": "2025-09-02T15:41:28Z",
-        "updated_at": "2025-09-02T15:53:19Z",
+        "updated_at": "2025-09-30T21:38:56Z",
         "closed_at": null
       },
       {
