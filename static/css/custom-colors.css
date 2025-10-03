@@ -1,11 +1,15 @@
 /* Custom Colors - Override Console Theme Defaults */
 
-/* Bitcoin Theme (Default) */
+/* Consistent Bitcoin Color Palette */
 :root {
     --background-color: #1a1a1a;
     --font-color: #ffffff;
-    --primary-color: #f7931a;      /* Bitcoin orange */
-    --secondary-color: #eba059;    /* Bitcoin red */
+    --primary-color: #f7931a;      /* Bitcoin orange - primary */
+    --secondary-color: #eba059;    /* Bitcoin orange - secondary */
+    --accent-color: #d68910;       /* Bitcoin orange - muted */
+    --highlight-bg: rgba(247, 147, 26, 0.08);  /* Consistent highlight background */
+    --border-color: rgba(247, 147, 26, 0.3);   /* Consistent border color */
+    --shadow-color: rgba(247, 147, 26, 0.1);   /* Consistent shadow color */
     --code-bg-color: #2d3436;
 }
 
@@ -14,8 +18,12 @@
     :root {
         --background-color: #ffffff;
         --font-color: #151515;
-        --primary-color: #f7931a;      /* Bitcoin orange */
-        --secondary-color: #eba059;    /* Bitcoin red */
+        --primary-color: #f7931a;      /* Bitcoin orange - primary */
+        --secondary-color: #eba059;    /* Bitcoin orange - secondary */
+        --accent-color: #d68910;       /* Bitcoin orange - muted */
+        --highlight-bg: rgba(247, 147, 26, 0.06);  /* Lighter for light mode */
+        --border-color: rgba(247, 147, 26, 0.4);   /* Stronger for light mode */
+        --shadow-color: rgba(247, 147, 26, 0.08);  /* Lighter shadow for light mode */
         --code-bg-color: #e8eff2;
     }
 }
@@ -51,5 +59,264 @@
         width: auto !important; /* Allow full width instead of 2ch */
         overflow: visible !important; /* Show full text instead of hidden */
     }
+}
+
+/* GitHub-like Markdown Styling */
+
+/* Improve ordered list styling */
+ol {
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+ol li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Prevent code block styling for indented content under lists */
+ol li p, ol li div {
+    margin: 0.5rem 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+}
+
+/* Fix indented content under list items */
+ol li > p:first-child {
+    margin-top: 0;
+}
+
+ol li > p:last-child {
+    margin-bottom: 0;
+}
+
+/* Better spacing for nested content in lists */
+ol li > * {
+    margin-left: 0;
+}
+
+/* Remove box styling from preformatted text that shouldn't be code */
+.content pre:not([class*="language-"]):not(.highlight pre) {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    white-space: pre-wrap;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Improve image spacing */
+.content p img {
+    margin: 1rem 0;
+}
+
+/* Better paragraph spacing */
+.content p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+/* Visual Enhancements for Blog Posts */
+
+/* Bitcoin-themed highlights */
+body .bitcoin-highlight {
+    background: var(--highlight-bg) !important;
+    padding: 0.1em 0.3em !important;
+    border-radius: 3px !important;
+    font-weight: 500 !important;
+    display: inline !important;
+    color: var(--accent-color) !important;
+}
+
+/* Subtle code highlighting */
+code {
+    background: var(--highlight-bg) !important;
+    color: var(--accent-color) !important;
+    padding: 0.15em 0.3em !important;
+    border-radius: 3px !important;
+    font-weight: 500 !important;
+}
+
+/* Subtle Bitcoin orange for bold text */
+body .content strong, body .content b, body strong, body b {
+    color: var(--accent-color) !important;
+    font-weight: 600 !important;
+}
+
+body .content strong:hover, body .content b:hover, body strong:hover, body b:hover {
+    color: var(--primary-color) !important;
+    transition: color 0.2s ease !important;
+}
+
+/* Subtle blockquotes */
+body .content blockquote, body blockquote {
+    background: var(--highlight-bg) !important;
+    border-left: 3px solid var(--primary-color) !important;
+    padding: 1rem 1.2rem !important;
+    margin: 1.5rem 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+    box-shadow: 0 1px 3px var(--shadow-color) !important;
+    position: relative !important;
+}
+
+body .content blockquote::before, body blockquote::before {
+    content: "💡" !important;
+    position: absolute !important;
+    left: -12px !important;
+    top: 1rem !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 12px !important;
+}
+
+/* Subtle headers */
+body .content h1, body .content h2, body .content h3, body .content h4, 
+body h1, body h2, body h3, body h4 {
+    color: var(--accent-color) !important;
+    position: relative !important;
+    transition: color 0.2s ease !important;
+}
+
+body .content h1:hover, body .content h2:hover, body .content h3:hover,
+body h1:hover, body h2:hover, body h3:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Subtle image effects */
+.content img {
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.content img:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Special styling for important terms */
+body .term-highlight {
+    background: var(--highlight-bg) !important;
+    padding: 0.1em 0.2em !important;
+    border-radius: 2px !important;
+    font-weight: 500 !important;
+    color: var(--accent-color) !important;
+    display: inline !important;
+}
+
+/* Step indicators for numbered lists */
+.content ol li::marker {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1.1em;
+}
+
+.content ol li {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.content ol li::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.3rem;
+    width: 8px;
+    height: 8px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--border-color);
+}
+
+/* Links with Bitcoin-themed styling */
+.content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.content a:hover {
+    border-bottom: 1px solid var(--primary-color);
+    text-shadow: 0 1px 3px var(--border-color);
+}
+
+/* Alert boxes for important information */
+body .alert {
+    padding: 1rem 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    border-radius: 8px !important;
+    border-left: 4px solid !important;
+    position: relative !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    font-family: var(--font-stack) !important;
+}
+
+body .alert-warning {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.1), rgba(255, 193, 7, 0.05)) !important;
+    border-left-color: #ffc107 !important;
+    color: #856404 !important;
+}
+
+body .alert-info {
+    background: var(--highlight-bg) !important;
+    border-left-color: var(--primary-color) !important;
+}
+
+body .alert-success {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.05)) !important;
+    border-left-color: #28a745 !important;
+}
+
+/* Subtle animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content > * {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Enhanced tables */
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.content table th {
+    background: linear-gradient(135deg, #f7931a, #eba059);
+    color: white;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.content table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(247, 147, 26, 0.1);
+}
+
+.content table tr:hover {
+    background: rgba(247, 147, 26, 0.05);
 }
 

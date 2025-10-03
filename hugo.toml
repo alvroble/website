@@ -13,6 +13,35 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# Markup settings - GitHub-compatible
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = false
+      xhtml = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      wrapStandAloneImageWithinParagraph = true
+      attribute = true
+    [markup.goldmark.extensions]
+      definitionList = false
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    style = "github"
+    tabWidth = 4
+
 # Pagination
 [pagination]
   pagerSize = 10
