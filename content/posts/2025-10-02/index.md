@@ -173,10 +173,15 @@ For SeedSigner, the pragmatic choice may be:
 <p align="center">
 <img style="max-width: 240px; height: auto;" alt="External Verification Screen" src="images/external_verification.png" />
 </p>
-  While this can add redundancy, it has limits: malware could tamper with both the PSBT and the verification site, and manual comparison is tedious. A simpler approach—such as confirming the current date when showing validity ranges—offers similar security with less friction. Third-party checks may be useful for high-value cases but should remain optional.
+  While this can add redundancy, it has limits: malware could tamper with both the PSBT and the verification site, and manual comparison is tedious. A simpler approach, such as confirming the current date when showing validity ranges, offers similar security with less friction. Third-party checks may be useful for high-value cases but should remain optional.
 
 # Conclusion
-This work implements the practical mechanism BIP-353 envisioned: transferable RFC-9102 proofs carried in PSBTs, validated offline on constrained signers. The main engineering tradeoffs are packaging (<span class="bitcoin-highlight">dnssec-prover</span> native bindings vs Python port), PSBT size, and additional QA for small MicroPython hardware. The PR authors already included reproducible build steps, test vectors (Sparrow), and reviewer feedback from key actors; that puts embit in a strong position to be the canonical verification library for SeedSigner-style hardware wallets. 
+BIP-353 represents a natural evolution in Bitcoin’s long effort to reconcile hard cryptography with UX. By anchoring payment instructions in DNSSEC proofs, it transforms opaque addresses into verifiable, human-readable names that can be checked offline, without introducing new infrastructure. Constrained, offline, air-gapped hardware wallets must provide strong security guarantees while operating with minimal assumptions about time, network, or trust.
+
+The SeedSigner and embit integration demonstrates that this is not only possible but practical: proofs can be generated online, transported via PSBT, and verified offline in a reproducible way. Yet important tradeoffs remain: how to handle proof size, whether to rely on Rust bindings or pure-Python verifiers, and how to communicate DNSSEC validity windows without confusing or overburdening the user. These are not unsolvable problems, but they demand careful design choices that balance technical rigor with real-world UX.
+
+In the bigger picture, BIP-353 pushes Bitcoin payments closer to be both secure and intuitive: users can pay <span class="bitcoin-highlight">₿alice@example.com</span> with cryptographic confidence, not blind trust. The road ahead is less about whether the standard works and more about how to refine its deployment so that everyday users, even on the most constrained devices, can rely on it safely. If the community can resolve these remaining questions, BIP-353 may finally deliver what earlier proposals could not: a naming layer for Bitcoin that is simple, universal, and verifiably secure.
+
 
 # References
 - [BIP-353](https://github.com/bitcoin/bips/blob/master/bip-0353.mediawiki)
