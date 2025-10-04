@@ -3,18 +3,38 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-03T02:55:22.341Z"
+    "last_updated": "2025-10-04T02:50:04.508Z"
   },
   "statistics": {
-    "total_contributions": 25,
+    "total_contributions": 27,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 0,
-    "total_commits": 51
+    "total_commits": 53
   },
   "recent_activity": [
+    {
+      "id": "55584446536",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-10-03T18:14:38Z",
+      "repo": "TABConf/7.tabconf.com",
+      "repo_url": "https://github.com/TABConf/7.tabconf.com",
+      "action": "created",
+      "title": "SeedSigner + BIP-353: Human-Readable Bitcoin Payments",
+      "url": "https://github.com/TABConf/7.tabconf.com/issues/63"
+    },
+    {
+      "id": "55584018127",
+      "type": "PushEvent",
+      "created_at": "2025-10-03T18:03:26Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "style improvements",
+      "url": "https://github.com/alvroble/website/commit/049e1d09727251b16693b1994cdd0200a2562e15"
+    },
     {
       "id": "55361941413",
       "type": "CreateEvent",
@@ -194,26 +214,6 @@
       "action": null,
       "title": "add core 30.0rc1 and provable crypto workbook topics",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/9aec1e299253ab990710f63893b4bd714e8fceec"
-    },
-    {
-      "id": "54672967394",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-09-14T15:26:43Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/796"
-    },
-    {
-      "id": "54672947434",
-      "type": "PushEvent",
-      "created_at": "2025-09-14T15:25:30Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "fix: Update capitalization to Title Case for titles and Sentence case for buttons (#648)",
-      "url": "https://github.com/alvroble/seedsigner/commit/1b70aa03795025f86ae44c40794f0351bd1986dd"
     }
   ],
   "repositories": [
@@ -544,7 +544,7 @@
         "repo_url": "https://github.com/TABConf/7.tabconf.com",
         "state": "open",
         "created_at": "2025-09-02T15:41:28Z",
-        "updated_at": "2025-09-30T21:38:56Z",
+        "updated_at": "2025-10-03T19:57:10Z",
         "closed_at": null
       },
       {
