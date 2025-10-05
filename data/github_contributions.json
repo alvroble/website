@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-04T02:50:04.508Z"
+    "last_updated": "2025-10-05T03:05:59.741Z"
   },
   "statistics": {
     "total_contributions": 27,
@@ -12,9 +12,19 @@
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 0,
-    "total_commits": 53
+    "total_commits": 54
   },
   "recent_activity": [
+    {
+      "id": "55600491754",
+      "type": "PushEvent",
+      "created_at": "2025-10-04T07:31:05Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Edit conclusion",
+      "url": "https://github.com/alvroble/website/commit/b6fed75159d2500c61c3717e10ff9b588707b7f8"
+    },
     {
       "id": "55584446536",
       "type": "IssueCommentEvent",
@@ -204,16 +214,6 @@
       "action": null,
       "title": "add core 30.0rc1 and provable crypto workbook topics",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/ffc7e900dcc07c05578c1da529ffcc9046c8afd7"
-    },
-    {
-      "id": "54673307850",
-      "type": "PushEvent",
-      "created_at": "2025-09-14T15:48:47Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "add core 30.0rc1 and provable crypto workbook topics",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/9aec1e299253ab990710f63893b4bd714e8fceec"
     }
   ],
   "repositories": [
