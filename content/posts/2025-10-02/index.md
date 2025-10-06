@@ -20,6 +20,9 @@ For software wallets with network connectivity, integration of BIP-353 is relati
 
 This article explores that question. We will first examine the design of BIP-353, then review its implementation in [embit](https://github.com/diybitcoinhardware/embit) (the library underlying SeedSigner) and finally analyze the architectural and UX challenges of bringing DNS Payment Instructions to a hardware wallet environment. Along the way, we’ll also consider alternative approaches to presenting these proofs to the user and balancing security with usability.
 
+<div class="alert alert-info">
+📝 <strong>Note on Address Types:</strong> While BIP-353 works optimally with reusable address schemes like <strong>Silent Payments</strong>, this article focuses on regular Bitcoin addresses (which should not be reused). This is because SeedSigner and embit do not yet support Silent Payment addresses. As Silent Payments implementation matures in hardware wallets, BIP-353 will become even more powerful for privacy-preserving, human-readable payments.
+</div>
 
 # Background
 
