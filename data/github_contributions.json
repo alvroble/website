@@ -3,18 +3,28 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-06T03:00:38.174Z"
+    "last_updated": "2025-10-07T02:56:19.406Z"
   },
   "statistics": {
-    "total_contributions": 27,
+    "total_contributions": 28,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 0,
-    "total_commits": 54
+    "total_commits": 55
   },
   "recent_activity": [
+    {
+      "id": "55678680908",
+      "type": "PushEvent",
+      "created_at": "2025-10-06T17:56:50Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "add note about sp addresses",
+      "url": "https://github.com/alvroble/website/commit/7cfce07a6dbf33f5b9949e170463442b2385674b"
+    },
     {
       "id": "55600491754",
       "type": "PushEvent",
@@ -204,16 +214,6 @@
       "action": null,
       "title": "agradecimiento a MIL",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/130962fb5f634082a2a0cec5104d32d67d4059fd"
-    },
-    {
-      "id": "54673800705",
-      "type": "PushEvent",
-      "created_at": "2025-09-14T16:20:08Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "add core 30.0rc1 and provable crypto workbook topics",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/ffc7e900dcc07c05578c1da529ffcc9046c8afd7"
     }
   ],
   "repositories": [
