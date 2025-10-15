@@ -3,22 +3,22 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-14T02:59:20.653Z"
+    "last_updated": "2025-10-15T03:03:24.970Z"
   },
   "statistics": {
-    "total_contributions": 31,
+    "total_contributions": 27,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 0,
-    "total_commits": 57
+    "total_pull_requests": 1,
+    "total_commits": 0
   },
   "recent_activity": [
     {
-      "id": "56005064680",
+      "id": "4014400761",
       "type": "IssueCommentEvent",
-      "created_at": "2025-10-13T20:35:28Z",
+      "created_at": "2025-10-13T20:35:24Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
@@ -26,49 +26,59 @@
       "url": "https://github.com/SeedSigner/seedsigner/pull/717"
     },
     {
-      "id": "55896858315",
+      "id": "5168034713",
+      "type": "PushEvent",
+      "created_at": "2025-10-13T12:05:26Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/ee6cbc0877777c7cbf4fea20dfea0469dc60ec5c"
+    },
+    {
+      "id": "5120796015",
       "type": "PushEvent",
       "created_at": "2025-10-10T14:49:45Z",
       "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
       "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
       "action": null,
-      "title": "#1 propuestas de temas provisionales",
+      "title": "Activity",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/fdad60864abf6130b7710a4959edae28ffa92d1b"
     },
     {
-      "id": "55895154740",
+      "id": "5119995217",
       "type": "PushEvent",
       "created_at": "2025-10-10T14:16:32Z",
       "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
       "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
       "action": null,
-      "title": "Init #1",
+      "title": "Activity",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/e1e186f0265d58f31eebd5aa776924e31a5aecfe"
     },
     {
-      "id": "55678680908",
+      "id": "5015168634",
       "type": "PushEvent",
       "created_at": "2025-10-06T17:56:50Z",
       "repo": "alvroble/website",
       "repo_url": "https://github.com/alvroble/website",
       "action": null,
-      "title": "add note about sp addresses",
+      "title": "Activity",
       "url": "https://github.com/alvroble/website/commit/7cfce07a6dbf33f5b9949e170463442b2385674b"
     },
     {
-      "id": "55600491754",
+      "id": "4972358388",
       "type": "PushEvent",
-      "created_at": "2025-10-04T07:31:05Z",
+      "created_at": "2025-10-04T07:31:04Z",
       "repo": "alvroble/website",
       "repo_url": "https://github.com/alvroble/website",
       "action": null,
-      "title": "Edit conclusion",
+      "title": "Activity",
       "url": "https://github.com/alvroble/website/commit/b6fed75159d2500c61c3717e10ff9b588707b7f8"
     },
     {
-      "id": "55584446536",
+      "id": "3842432711",
       "type": "IssueCommentEvent",
-      "created_at": "2025-10-03T18:14:38Z",
+      "created_at": "2025-10-03T18:14:36Z",
       "repo": "TABConf/7.tabconf.com",
       "repo_url": "https://github.com/TABConf/7.tabconf.com",
       "action": "created",
@@ -76,17 +86,37 @@
       "url": "https://github.com/TABConf/7.tabconf.com/issues/63"
     },
     {
-      "id": "55584018127",
+      "id": "4963377041",
       "type": "PushEvent",
-      "created_at": "2025-10-03T18:03:26Z",
+      "created_at": "2025-10-03T18:03:25Z",
       "repo": "alvroble/website",
       "repo_url": "https://github.com/alvroble/website",
       "action": null,
-      "title": "style improvements",
+      "title": "Activity",
       "url": "https://github.com/alvroble/website/commit/049e1d09727251b16693b1994cdd0200a2562e15"
     },
     {
-      "id": "55361941413",
+      "id": "3817467462",
+      "type": "PullRequestEvent",
+      "created_at": "2025-10-02T15:15:20Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "opened",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4929537071",
+      "type": "CreateEvent",
+      "created_at": "2025-10-02T11:18:26Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4855881408",
       "type": "CreateEvent",
       "created_at": "2025-09-29T17:31:11Z",
       "repo": "alvroble/seedsigner",
@@ -96,17 +126,17 @@
       "url": "https://github.com/alvroble/seedsigner/commit/undefined"
     },
     {
-      "id": "55304127736",
+      "id": "4825913886",
       "type": "PushEvent",
       "created_at": "2025-09-28T09:57:04Z",
       "repo": "alvroble/seedsigner-os",
       "repo_url": "https://github.com/alvroble/seedsigner-os",
       "action": null,
-      "title": "Add libraqm as external package",
+      "title": "Activity",
       "url": "https://github.com/alvroble/seedsigner-os/commit/b0f2d222697cbe71d4e7e4beabf92d3cc37890f7"
     },
     {
-      "id": "55304119824",
+      "id": "4825909254",
       "type": "CreateEvent",
       "created_at": "2025-09-28T09:56:31Z",
       "repo": "alvroble/seedsigner",
@@ -116,104 +146,74 @@
       "url": "https://github.com/alvroble/seedsigner/commit/undefined"
     },
     {
-      "id": "55153709737",
+      "id": "3658587078",
       "type": "PullRequestReviewEvent",
       "created_at": "2025-09-24T17:25:46Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "55094970255",
+      "id": "3633679749",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-23T17:07:54Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "3633679539",
       "type": "PullRequestReviewCommentEvent",
       "created_at": "2025-09-23T17:07:54Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "55094970182",
+      "id": "3633249932",
       "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T17:07:55Z",
+      "created_at": "2025-09-23T16:42:48Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "updated",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "3633249930",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-09-23T16:42:48Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "55093852435",
+      "id": "3633212778",
       "type": "PullRequestReviewCommentEvent",
       "created_at": "2025-09-23T16:40:38Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "55093852251",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T16:42:47Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
-    },
-    {
-      "id": "55093852120",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T16:42:47Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Fix] Stop translation of seed words in `SeedWordsBackupTestView`",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/813"
-    },
-    {
-      "id": "54988295927",
+      "id": "3587420493",
       "type": "WatchEvent",
-      "created_at": "2025-09-21T14:21:06Z",
+      "created_at": "2025-09-21T14:21:05Z",
       "repo": "cryptography-camp/workbook",
       "repo_url": "https://github.com/cryptography-camp/workbook",
       "action": "started",
       "title": "Activity",
       "url": "https://github.com/cryptography-camp/workbook/commit/undefined"
-    },
-    {
-      "id": "54988295097",
-      "type": "WatchEvent",
-      "created_at": "2025-09-21T14:21:03Z",
-      "repo": "cryptography-camp/prework",
-      "repo_url": "https://github.com/cryptography-camp/prework",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/cryptography-camp/prework/commit/undefined"
-    },
-    {
-      "id": "54988246146",
-      "type": "WatchEvent",
-      "created_at": "2025-09-21T14:18:04Z",
-      "repo": "nostr-connect/nostrum",
-      "repo_url": "https://github.com/nostr-connect/nostrum",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/nostr-connect/nostrum/commit/undefined"
-    },
-    {
-      "id": "54988241964",
-      "type": "WatchEvent",
-      "created_at": "2025-09-21T14:17:48Z",
-      "repo": "rasbt/LLMs-from-scratch",
-      "repo_url": "https://github.com/rasbt/LLMs-from-scratch",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/rasbt/LLMs-from-scratch/commit/undefined"
     }
   ],
   "repositories": [
@@ -281,6 +281,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 3274377144,
+        "number": 796,
+        "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/796",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2025-07-29T17:11:10Z",
+        "updated_at": "2025-10-14T20:13:07Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 3036199337,
         "number": 750,
         "title": "[Bugfix] Remove unnecessary sleep time in `toast.py` to speed up Screenshot Generator",
@@ -303,19 +316,6 @@
         "state": "open",
         "created_at": "2025-10-02T15:15:20Z",
         "updated_at": "2025-10-13T19:27:49Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 3274377144,
-        "number": 796,
-        "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/796",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2025-07-29T17:11:10Z",
-        "updated_at": "2025-09-18T15:07:14Z",
         "closed_at": null,
         "merged_at": null
       },
