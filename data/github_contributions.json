@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-17T03:00:32.312Z"
+    "last_updated": "2025-10-18T02:53:34.289Z"
   },
   "statistics": {
-    "total_contributions": 27,
+    "total_contributions": 29,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "5291842238",
+      "type": "PushEvent",
+      "created_at": "2025-10-17T22:30:50Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/dc6b9eee12629e10f3856b98cb7ea064befa6793"
+    },
+    {
+      "id": "5291451309",
+      "type": "PushEvent",
+      "created_at": "2025-10-17T22:02:12Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/a59cb04da17a4b66b3c10ab61ece9243fbc83716"
+    },
     {
       "id": "4066792345",
       "type": "WatchEvent",
@@ -192,26 +212,6 @@
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "updated",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "3633249930",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T16:42:48Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "3633212778",
-      "type": "PullRequestReviewCommentEvent",
-      "created_at": "2025-09-23T16:40:38Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
       "title": "Activity",
       "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     }
@@ -536,18 +536,6 @@
   "issues": {
     "open": [
       {
-        "id": 3376559226,
-        "number": 63,
-        "title": "SeedSigner + BIP-353: Human-Readable Bitcoin Payments",
-        "url": "https://github.com/TABConf/7.tabconf.com/issues/63",
-        "repo": "TABConf/7.tabconf.com",
-        "repo_url": "https://github.com/TABConf/7.tabconf.com",
-        "state": "open",
-        "created_at": "2025-09-02T15:41:28Z",
-        "updated_at": "2025-10-03T19:57:10Z",
-        "closed_at": null
-      },
-      {
         "id": 3300081356,
         "number": 1,
         "title": "Fails new invalid proofs tests from BIP PR #1912",
@@ -632,6 +620,19 @@
         "closed_at": null
       }
     ],
-    "closed": []
+    "closed": [
+      {
+        "id": 3376559226,
+        "number": 63,
+        "title": "SeedSigner + BIP-353: Human-Readable Bitcoin Payments",
+        "url": "https://github.com/TABConf/7.tabconf.com/issues/63",
+        "repo": "TABConf/7.tabconf.com",
+        "repo_url": "https://github.com/TABConf/7.tabconf.com",
+        "state": "closed",
+        "created_at": "2025-09-02T15:41:28Z",
+        "updated_at": "2025-10-17T13:23:06Z",
+        "closed_at": "2025-10-17T13:23:06Z"
+      }
+    ]
   }
 }
