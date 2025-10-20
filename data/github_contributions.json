@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-19T03:14:35.710Z"
+    "last_updated": "2025-10-20T03:14:13.107Z"
   },
   "statistics": {
-    "total_contributions": 29,
+    "total_contributions": 27,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
@@ -294,19 +294,6 @@
         "merged_at": null
       },
       {
-        "id": 3036199337,
-        "number": 750,
-        "title": "[Bugfix] Remove unnecessary sleep time in `toast.py` to speed up Screenshot Generator",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/750",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2025-05-02T14:41:22Z",
-        "updated_at": "2025-10-13T19:33:40Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
         "id": 3477919789,
         "number": 815,
         "title": "[fix] Transaction handling when PSBT does not contain wallet fingerprint",
@@ -412,6 +399,19 @@
       }
     ],
     "merged": [
+      {
+        "id": 3036199337,
+        "number": 750,
+        "title": "[Bugfix] Remove unnecessary sleep time in `toast.py` to speed up Screenshot Generator",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/750",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "closed",
+        "created_at": "2025-05-02T14:41:22Z",
+        "updated_at": "2025-10-20T01:42:39Z",
+        "closed_at": "2025-10-20T01:42:39Z",
+        "merged_at": "2025-10-20T01:42:39Z"
+      },
       {
         "id": 3223142162,
         "number": 787,
