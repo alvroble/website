@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-20T03:14:13.107Z"
+    "last_updated": "2025-10-21T03:04:42.075Z"
   },
   "statistics": {
-    "total_contributions": 27,
+    "total_contributions": 50,
     "total_repositories": 15,
     "total_stars": 4,
     "total_forks": 0,
@@ -16,169 +16,59 @@
   },
   "recent_activity": [
     {
-      "id": "5291842238",
+      "id": "5340013276",
       "type": "PushEvent",
-      "created_at": "2025-10-17T22:30:50Z",
+      "created_at": "2025-10-20T20:02:36Z",
       "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
       "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
       "action": null,
       "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/dc6b9eee12629e10f3856b98cb7ea064befa6793"
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/fdeabfa6e07f4592ea709866b64fc381315d3048"
     },
     {
-      "id": "5291451309",
-      "type": "PushEvent",
-      "created_at": "2025-10-17T22:02:12Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/a59cb04da17a4b66b3c10ab61ece9243fbc83716"
-    },
-    {
-      "id": "4066792345",
-      "type": "WatchEvent",
-      "created_at": "2025-10-16T02:36:26Z",
-      "repo": "vnprc/hashpool",
-      "repo_url": "https://github.com/vnprc/hashpool",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/vnprc/hashpool/commit/undefined"
-    },
-    {
-      "id": "4014400761",
+      "id": "4143479150",
       "type": "IssueCommentEvent",
-      "created_at": "2025-10-13T20:35:24Z",
+      "created_at": "2025-10-20T17:17:47Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
-      "title": "[Enhancement] Display 'Seed already loaded' message when seed already loaded in memory",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/717"
+      "title": "Feat import export binary and decimal seed",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/608"
     },
     {
-      "id": "5168034713",
-      "type": "PushEvent",
-      "created_at": "2025-10-13T12:05:26Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/ee6cbc0877777c7cbf4fea20dfea0469dc60ec5c"
-    },
-    {
-      "id": "5120796015",
-      "type": "PushEvent",
-      "created_at": "2025-10-10T14:49:45Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/fdad60864abf6130b7710a4959edae28ffa92d1b"
-    },
-    {
-      "id": "5119995217",
-      "type": "PushEvent",
-      "created_at": "2025-10-10T14:16:32Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/e1e186f0265d58f31eebd5aa776924e31a5aecfe"
-    },
-    {
-      "id": "5015168634",
-      "type": "PushEvent",
-      "created_at": "2025-10-06T17:56:50Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/7cfce07a6dbf33f5b9949e170463442b2385674b"
-    },
-    {
-      "id": "4972358388",
-      "type": "PushEvent",
-      "created_at": "2025-10-04T07:31:04Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/b6fed75159d2500c61c3717e10ff9b588707b7f8"
-    },
-    {
-      "id": "3842432711",
+      "id": "4143403442",
       "type": "IssueCommentEvent",
-      "created_at": "2025-10-03T18:14:36Z",
-      "repo": "TABConf/7.tabconf.com",
-      "repo_url": "https://github.com/TABConf/7.tabconf.com",
-      "action": "created",
-      "title": "SeedSigner + BIP-353: Human-Readable Bitcoin Payments",
-      "url": "https://github.com/TABConf/7.tabconf.com/issues/63"
-    },
-    {
-      "id": "4963377041",
-      "type": "PushEvent",
-      "created_at": "2025-10-03T18:03:25Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/049e1d09727251b16693b1994cdd0200a2562e15"
-    },
-    {
-      "id": "3817467462",
-      "type": "PullRequestEvent",
-      "created_at": "2025-10-02T15:15:20Z",
+      "created_at": "2025-10-20T17:13:42Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "opened",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+      "action": "created",
+      "title": "Resolves issue 555 - Improve UX navigating across DEL button (expanding it)",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/603"
     },
     {
-      "id": "4929537071",
-      "type": "CreateEvent",
-      "created_at": "2025-10-02T11:18:26Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/undefined"
+      "id": "4142586341",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-10-20T16:31:12Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/636"
     },
     {
-      "id": "4855881408",
-      "type": "CreateEvent",
-      "created_at": "2025-09-29T17:31:11Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/undefined"
+      "id": "4142153085",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-10-20T16:08:33Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Resolves issue 621 - Verify Address for exported Xpub Option",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/629"
     },
     {
-      "id": "4825913886",
-      "type": "PushEvent",
-      "created_at": "2025-09-28T09:57:04Z",
-      "repo": "alvroble/seedsigner-os",
-      "repo_url": "https://github.com/alvroble/seedsigner-os",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner-os/commit/b0f2d222697cbe71d4e7e4beabf92d3cc37890f7"
-    },
-    {
-      "id": "4825909254",
-      "type": "CreateEvent",
-      "created_at": "2025-09-28T09:56:31Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/undefined"
-    },
-    {
-      "id": "3658587078",
+      "id": "4142126819",
       "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-24T17:25:46Z",
+      "created_at": "2025-10-20T16:07:13Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
@@ -186,19 +76,9 @@
       "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "3633679749",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T17:07:54Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "3633679539",
+      "id": "4142126481",
       "type": "PullRequestReviewCommentEvent",
-      "created_at": "2025-09-23T17:07:54Z",
+      "created_at": "2025-10-20T16:07:12Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
       "action": "created",
@@ -206,14 +86,134 @@
       "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     },
     {
-      "id": "3633249932",
+      "id": "4142096111",
       "type": "PullRequestReviewEvent",
-      "created_at": "2025-09-23T16:42:48Z",
+      "created_at": "2025-10-20T16:05:38Z",
       "repo": "SeedSigner/seedsigner",
       "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "updated",
+      "action": "created",
       "title": "Activity",
       "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4142095863",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T16:05:37Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141976645",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-10-20T15:59:53Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141976389",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T15:59:52Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141702403",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-10-20T15:48:22Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141701733",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T15:48:20Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141620867",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-10-20T15:44:54Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141620418",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T15:44:52Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141578426",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-10-20T15:42:57Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141578133",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T15:42:57Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141195956",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-10-20T15:25:52Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4141195674",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2025-10-20T15:25:51Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "4140497144",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-10-20T14:55:42Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Feature]: Predict Last Seed Word",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/800"
     }
   ],
   "repositories": [
@@ -281,6 +281,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 2751164936,
+        "number": 636,
+        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2024-12-19T18:35:59Z",
+        "updated_at": "2025-10-20T16:31:12Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 3274377144,
         "number": 796,
         "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
@@ -303,19 +316,6 @@
         "state": "open",
         "created_at": "2025-10-02T15:15:20Z",
         "updated_at": "2025-10-13T19:27:49Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 2751164936,
-        "number": 636,
-        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-08-19T15:36:54Z",
         "closed_at": null,
         "merged_at": null
       },
