@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-10-26T03:08:50.597Z"
+    "last_updated": "2025-10-27T03:18:44.597Z"
   },
   "statistics": {
-    "total_contributions": 79,
+    "total_contributions": 81,
     "total_repositories": 16,
     "total_stars": 4,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "4262004731",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-10-26T09:20:14Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[WIP] [POC] Entropy generation with snake game",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/820"
+    },
+    {
+      "id": "5472093086",
+      "type": "PushEvent",
+      "created_at": "2025-10-26T09:13:26Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/5414308c6a29f40b817f3d1807159efe9ebf3be9"
+    },
     {
       "id": "4255355798",
       "type": "IssueCommentEvent",
@@ -174,26 +194,6 @@
       "action": "started",
       "title": "Activity",
       "url": "https://github.com/micropython/micropython/commit/undefined"
-    },
-    {
-      "id": "4219456420",
-      "type": "WatchEvent",
-      "created_at": "2025-10-23T17:48:26Z",
-      "repo": "kdmukai/micropython_builder",
-      "repo_url": "https://github.com/kdmukai/micropython_builder",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/kdmukai/micropython_builder/commit/undefined"
-    },
-    {
-      "id": "4194517323",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-10-22T17:25:34Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
     }
   ],
   "repositories": [
@@ -261,6 +261,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 3552179810,
+        "number": 820,
+        "title": "[WIP] [POC] Entropy generation with snake game",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/820",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2025-10-25T09:12:36Z",
+        "updated_at": "2025-10-26T09:22:21Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 2503249490,
         "number": 600,
         "title": "[Enhancement] MicroSD toast timer settings",
@@ -270,19 +283,6 @@
         "state": "open",
         "created_at": "2024-09-03T16:01:02Z",
         "updated_at": "2025-10-25T09:19:53Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 3552179810,
-        "number": 820,
-        "title": "[WIP] [POC] Entropy generation with snake game",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/820",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2025-10-25T09:12:36Z",
-        "updated_at": "2025-10-25T09:12:36Z",
         "closed_at": null,
         "merged_at": null
       },
