@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-05T03:10:16.617Z"
+    "last_updated": "2025-11-06T03:12:54.225Z"
   },
   "statistics": {
-    "total_contributions": 79,
+    "total_contributions": 80,
     "total_repositories": 16,
     "total_stars": 4,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "4485794374",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-11-05T18:12:04Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Refactor] Make `DisplayDriver` a true parent class; add `DisplayDriverFactory`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/821"
+    },
+    {
+      "id": "4485699409",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-11-05T18:07:22Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Refactor] Make `DisplayDriver` a true parent class; add `DisplayDriverFactory`",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/821"
+    },
     {
       "id": "5702787686",
       "type": "PushEvent",
@@ -174,26 +194,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/seedsigner-os/commit/a64d7f97c02a26f151db127d47bfab5d3d8f0b94"
-    },
-    {
-      "id": "4250357324",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-10-24T22:36:28Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Enhancement] MicroSD toast timer settings",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/600"
-    },
-    {
-      "id": "5453144043",
-      "type": "PushEvent",
-      "created_at": "2025-10-24T22:24:52Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/663ada81233abf0046b45fa43dc16fce41b95d40"
     }
   ],
   "repositories": [
