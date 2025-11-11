@@ -3,11 +3,11 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-10T03:17:52.940Z"
+    "last_updated": "2025-11-11T03:12:35.834Z"
   },
   "statistics": {
-    "total_contributions": 79,
-    "total_repositories": 17,
+    "total_contributions": 88,
+    "total_repositories": 20,
     "total_stars": 4,
     "total_forks": 0,
     "total_issues": 0,
@@ -15,6 +15,96 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "5831595239",
+      "type": "PushEvent",
+      "created_at": "2025-11-10T09:58:44Z",
+      "repo": "alvroble/secp256k1-embedded",
+      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/secp256k1-embedded/commit/2272a91cdf56b852cc50c7fca9019c6959e40171"
+    },
+    {
+      "id": "5831568084",
+      "type": "PushEvent",
+      "created_at": "2025-11-10T09:57:38Z",
+      "repo": "alvroble/lvgl_micropython",
+      "repo_url": "https://github.com/alvroble/lvgl_micropython",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/lvgl_micropython/commit/684c2fea154408af928a0d3d0dc5db391928a245"
+    },
+    {
+      "id": "5831524296",
+      "type": "CreateEvent",
+      "created_at": "2025-11-10T09:55:45Z",
+      "repo": "alvroble/secp256k1-embedded",
+      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/secp256k1-embedded/commit/undefined"
+    },
+    {
+      "id": "4570769655",
+      "type": "ForkEvent",
+      "created_at": "2025-11-10T09:53:21Z",
+      "repo": "alvroble/secp256k1-embedded",
+      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
+      "action": "forked",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/secp256k1-embedded/commit/undefined"
+    },
+    {
+      "id": "5831432915",
+      "type": "PushEvent",
+      "created_at": "2025-11-10T09:51:53Z",
+      "repo": "alvroble/micropython-camera-API",
+      "repo_url": "https://github.com/alvroble/micropython-camera-API",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/micropython-camera-API/commit/a8c9600fb5d27f6658efc7634d75157e7b8bf0f2"
+    },
+    {
+      "id": "5831243949",
+      "type": "CreateEvent",
+      "created_at": "2025-11-10T09:44:07Z",
+      "repo": "alvroble/lvgl_micropython",
+      "repo_url": "https://github.com/alvroble/lvgl_micropython",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/lvgl_micropython/commit/undefined"
+    },
+    {
+      "id": "5831190279",
+      "type": "CreateEvent",
+      "created_at": "2025-11-10T09:42:00Z",
+      "repo": "alvroble/micropython",
+      "repo_url": "https://github.com/alvroble/micropython",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/micropython/commit/undefined"
+    },
+    {
+      "id": "4570451396",
+      "type": "ForkEvent",
+      "created_at": "2025-11-10T09:40:46Z",
+      "repo": "alvroble/micropython",
+      "repo_url": "https://github.com/alvroble/micropython",
+      "action": "forked",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/micropython/commit/undefined"
+    },
+    {
+      "id": "4567413719",
+      "type": "ForkEvent",
+      "created_at": "2025-11-10T07:30:56Z",
+      "repo": "alvroble/lvgl_micropython",
+      "repo_url": "https://github.com/alvroble/lvgl_micropython",
+      "action": "forked",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/lvgl_micropython/commit/undefined"
+    },
     {
       "id": "4556517586",
       "type": "ForkEvent",
@@ -124,76 +214,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/seedsigner/commit/5414308c6a29f40b817f3d1807159efe9ebf3be9"
-    },
-    {
-      "id": "4255355798",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-10-25T11:42:29Z",
-      "repo": "bitcoin/bitcoin",
-      "repo_url": "https://github.com/bitcoin/bitcoin",
-      "action": "created",
-      "title": "test: add case where `TOTAL_TRIES` is exceeded yet solution remains",
-      "url": "https://github.com/bitcoin/bitcoin/pull/33701"
-    },
-    {
-      "id": "4255333887",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-10-25T11:37:22Z",
-      "repo": "bitcoin/bitcoin",
-      "repo_url": "https://github.com/bitcoin/bitcoin",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/bitcoin/bitcoin/commit/undefined"
-    },
-    {
-      "id": "4255333775",
-      "type": "PullRequestReviewCommentEvent",
-      "created_at": "2025-10-25T11:37:21Z",
-      "repo": "bitcoin/bitcoin",
-      "repo_url": "https://github.com/bitcoin/bitcoin",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/bitcoin/bitcoin/commit/undefined"
-    },
-    {
-      "id": "4255261219",
-      "type": "ForkEvent",
-      "created_at": "2025-10-25T11:20:37Z",
-      "repo": "alvroble/HWI",
-      "repo_url": "https://github.com/alvroble/HWI",
-      "action": "forked",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/HWI/commit/undefined"
-    },
-    {
-      "id": "4254521144",
-      "type": "PullRequestEvent",
-      "created_at": "2025-10-25T09:12:36Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "opened",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "5458825121",
-      "type": "PushEvent",
-      "created_at": "2025-10-25T08:45:23Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/96ec13844b3f3ad1f9518a4b38d5143f6a105133"
-    },
-    {
-      "id": "4254180949",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-10-25T08:24:34Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Enhancement] MicroSD toast timer settings",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/600"
     }
   ],
   "repositories": [
