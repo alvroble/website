@@ -3,18 +3,28 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-11T03:12:35.834Z"
+    "last_updated": "2025-11-12T03:11:06.284Z"
   },
   "statistics": {
-    "total_contributions": 88,
+    "total_contributions": 89,
     "total_repositories": 20,
-    "total_stars": 4,
+    "total_stars": 5,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 1,
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "4611915341",
+      "type": "PullRequestReviewEvent",
+      "created_at": "2025-11-11T21:33:38Z",
+      "repo": "bitcoin/bitcoin",
+      "repo_url": "https://github.com/bitcoin/bitcoin",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/bitcoin/bitcoin/commit/undefined"
+    },
     {
       "id": "5831595239",
       "type": "PushEvent",
@@ -204,16 +214,6 @@
       "action": "created",
       "title": "[WIP] [POC] Entropy generation with snake game",
       "url": "https://github.com/SeedSigner/seedsigner/pull/820"
-    },
-    {
-      "id": "5472093086",
-      "type": "PushEvent",
-      "created_at": "2025-10-26T09:13:26Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/5414308c6a29f40b817f3d1807159efe9ebf3be9"
     }
   ],
   "repositories": [
