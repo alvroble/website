@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-12T03:11:06.284Z"
+    "last_updated": "2025-11-13T03:13:39.955Z"
   },
   "statistics": {
-    "total_contributions": 89,
+    "total_contributions": 90,
     "total_repositories": 20,
     "total_stars": 5,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "5909647569",
+      "type": "PushEvent",
+      "created_at": "2025-11-12T22:53:29Z",
+      "repo": "alvroble/lvgl_micropython",
+      "repo_url": "https://github.com/alvroble/lvgl_micropython",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/lvgl_micropython/commit/4b3ba17cbc829dd1565ab46c0478cfd1e828260a"
+    },
+    {
+      "id": "5904453492",
+      "type": "PushEvent",
+      "created_at": "2025-11-12T18:35:22Z",
+      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
+      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/af4b8442032159916d72037958998d5a46899c93"
+    },
     {
       "id": "4611915341",
       "type": "PullRequestReviewEvent",
@@ -194,26 +214,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/2669c90f5ee46bd2ca5d9e0d2d5a74c7c75f9c38"
-    },
-    {
-      "id": "4340847368",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-10-29T17:27:36Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[WIP] [POC] Entropy generation with snake game",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/820"
-    },
-    {
-      "id": "4262004731",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-10-26T09:20:14Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[WIP] [POC] Entropy generation with snake game",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/820"
     }
   ],
   "repositories": [
