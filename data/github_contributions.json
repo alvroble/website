@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-14T03:12:03.568Z"
+    "last_updated": "2025-11-15T03:06:00.825Z"
   },
   "statistics": {
     "total_contributions": 90,
@@ -281,6 +281,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 2751164936,
+        "number": 636,
+        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2024-12-19T18:35:59Z",
+        "updated_at": "2025-11-14T21:31:13Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 3552179810,
         "number": 820,
         "title": "[WIP] [POC] Entropy generation with snake game",
@@ -303,19 +316,6 @@
         "state": "open",
         "created_at": "2024-09-03T16:01:02Z",
         "updated_at": "2025-10-25T09:19:53Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 2751164936,
-        "number": 636,
-        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-10-24T13:59:02Z",
         "closed_at": null,
         "merged_at": null
       },
