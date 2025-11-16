@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-15T03:06:00.825Z"
+    "last_updated": "2025-11-16T03:16:58.396Z"
   },
   "statistics": {
-    "total_contributions": 90,
+    "total_contributions": 91,
     "total_repositories": 20,
     "total_stars": 5,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "4697101827",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-11-15T10:59:18Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/636"
+    },
+    {
+      "id": "4696209132",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-11-15T08:22:25Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[WIP] [POC] Entropy generation with snake game",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/820"
+    },
     {
       "id": "4653369328",
       "type": "WatchEvent",
@@ -194,26 +214,6 @@
       "action": "started",
       "title": "Activity",
       "url": "https://github.com/benjamin-wilson/public-pool/commit/undefined"
-    },
-    {
-      "id": "5594900025",
-      "type": "PushEvent",
-      "created_at": "2025-10-30T20:00:23Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/5439cabd3a541391f456b147eedf1482d3c475ec"
-    },
-    {
-      "id": "5594891040",
-      "type": "PushEvent",
-      "created_at": "2025-10-30T20:00:01Z",
-      "repo": "bitdevsmadrid/bitdevsmadrid.github.io",
-      "repo_url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/bitdevsmadrid/bitdevsmadrid.github.io/commit/70699cdad8a3cd711e5b1c0a26a8dc76618b834e"
     }
   ],
   "repositories": [
@@ -289,7 +289,7 @@
         "repo_url": "https://github.com/SeedSigner/seedsigner",
         "state": "open",
         "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-11-14T21:31:13Z",
+        "updated_at": "2025-11-16T02:51:53Z",
         "closed_at": null,
         "merged_at": null
       },
@@ -302,7 +302,7 @@
         "repo_url": "https://github.com/SeedSigner/seedsigner",
         "state": "open",
         "created_at": "2025-10-25T09:12:36Z",
-        "updated_at": "2025-11-13T19:11:22Z",
+        "updated_at": "2025-11-15T08:22:25Z",
         "closed_at": null,
         "merged_at": null
       },
