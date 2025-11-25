@@ -9,7 +9,7 @@ description = "Welcome to my first blog post"
 
 Hi, I'm **Alvaro** 👋
 
-I'm an electronics & networking engineer and Bitcoin enthusiast based in Spain. This website serves two main purposes:
+I'm an electronics and networking engineer and Bitcoin enthusiast based in Spain. This website serves two main purposes:
 
 ## 📝 Blog Posts
 I'll be sharing my thoughts on development, Bitcoin, networking and other topics that interest me.
