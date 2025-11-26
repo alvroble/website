@@ -3,18 +3,98 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-11-24T03:22:47.403Z"
+    "last_updated": "2025-11-26T03:13:40.956Z"
   },
   "statistics": {
-    "total_contributions": 41,
+    "total_contributions": 36,
     "total_repositories": 20,
     "total_stars": 5,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 1,
+    "total_pull_requests": 0,
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "6241433578",
+      "type": "PushEvent",
+      "created_at": "2025-11-25T19:16:30Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/17052bcc253cdfa3643a0c2a2c803ba3ed4674de"
+    },
+    {
+      "id": "6241224372",
+      "type": "PushEvent",
+      "created_at": "2025-11-25T19:07:15Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/0a54afbc1a60711669f3e039cc1887541a3bd400"
+    },
+    {
+      "id": "6213572415",
+      "type": "PushEvent",
+      "created_at": "2025-11-24T22:15:22Z",
+      "repo": "alvroble/lvgl_micropython",
+      "repo_url": "https://github.com/alvroble/lvgl_micropython",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/lvgl_micropython/commit/267a859c9c50b270eb7031fb9773b98b03fcf6f8"
+    },
+    {
+      "id": "6213457778",
+      "type": "PushEvent",
+      "created_at": "2025-11-24T22:09:34Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/750efc2b15024f59e108314925cf69d22e6ec3f3"
+    },
+    {
+      "id": "6213327754",
+      "type": "DeleteEvent",
+      "created_at": "2025-11-24T22:03:04Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/undefined"
+    },
+    {
+      "id": "6213326990",
+      "type": "DeleteEvent",
+      "created_at": "2025-11-24T22:03:02Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/undefined"
+    },
+    {
+      "id": "6213287082",
+      "type": "PushEvent",
+      "created_at": "2025-11-24T22:01:11Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/cc9703fbe1e893b82332e776a6433c45634d4d32"
+    },
+    {
+      "id": "4882195065",
+      "type": "IssueCommentEvent",
+      "created_at": "2025-11-24T18:44:07Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/636"
+    },
     {
       "id": "4853006172",
       "type": "IssueCommentEvent",
@@ -134,86 +214,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/lvgl_micropython/commit/684c2fea154408af928a0d3d0dc5db391928a245"
-    },
-    {
-      "id": "5831524296",
-      "type": "CreateEvent",
-      "created_at": "2025-11-10T09:55:45Z",
-      "repo": "alvroble/secp256k1-embedded",
-      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/secp256k1-embedded/commit/undefined"
-    },
-    {
-      "id": "4570769655",
-      "type": "ForkEvent",
-      "created_at": "2025-11-10T09:53:21Z",
-      "repo": "alvroble/secp256k1-embedded",
-      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
-      "action": "forked",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/secp256k1-embedded/commit/undefined"
-    },
-    {
-      "id": "5831432915",
-      "type": "PushEvent",
-      "created_at": "2025-11-10T09:51:53Z",
-      "repo": "alvroble/micropython-camera-API",
-      "repo_url": "https://github.com/alvroble/micropython-camera-API",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/micropython-camera-API/commit/a8c9600fb5d27f6658efc7634d75157e7b8bf0f2"
-    },
-    {
-      "id": "5831243949",
-      "type": "CreateEvent",
-      "created_at": "2025-11-10T09:44:07Z",
-      "repo": "alvroble/lvgl_micropython",
-      "repo_url": "https://github.com/alvroble/lvgl_micropython",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/lvgl_micropython/commit/undefined"
-    },
-    {
-      "id": "5831190279",
-      "type": "CreateEvent",
-      "created_at": "2025-11-10T09:42:00Z",
-      "repo": "alvroble/micropython",
-      "repo_url": "https://github.com/alvroble/micropython",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/micropython/commit/undefined"
-    },
-    {
-      "id": "4570451396",
-      "type": "ForkEvent",
-      "created_at": "2025-11-10T09:40:46Z",
-      "repo": "alvroble/micropython",
-      "repo_url": "https://github.com/alvroble/micropython",
-      "action": "forked",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/micropython/commit/undefined"
-    },
-    {
-      "id": "4567413719",
-      "type": "ForkEvent",
-      "created_at": "2025-11-10T07:30:56Z",
-      "repo": "alvroble/lvgl_micropython",
-      "repo_url": "https://github.com/alvroble/lvgl_micropython",
-      "action": "forked",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/lvgl_micropython/commit/undefined"
-    },
-    {
-      "id": "4556517586",
-      "type": "ForkEvent",
-      "created_at": "2025-11-09T08:08:24Z",
-      "repo": "alvroble/micropython-camera-API",
-      "repo_url": "https://github.com/alvroble/micropython-camera-API",
-      "action": "forked",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/micropython-camera-API/commit/undefined"
     }
   ],
   "repositories": [
@@ -289,7 +289,7 @@
         "repo_url": "https://github.com/SeedSigner/seedsigner",
         "state": "open",
         "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-11-18T21:55:01Z",
+        "updated_at": "2025-11-24T18:44:08Z",
         "closed_at": null,
         "merged_at": null
       },
