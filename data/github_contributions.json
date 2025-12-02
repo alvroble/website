@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-12-01T03:50:04.114Z"
+    "last_updated": "2025-12-02T03:17:31.349Z"
   },
   "statistics": {
-    "total_contributions": 26,
+    "total_contributions": 25,
     "total_repositories": 19,
     "total_stars": 5,
     "total_forks": 0,
@@ -169,11 +169,11 @@
       "id": "4570769655",
       "type": "ForkEvent",
       "created_at": "2025-11-10T09:53:21Z",
-      "repo": "alvroble/secp256k1-embedded",
-      "repo_url": "https://github.com/alvroble/secp256k1-embedded",
+      "repo": "diybitcoinhardware/secp256k1-embedded",
+      "repo_url": "https://github.com/diybitcoinhardware/secp256k1-embedded",
       "action": "forked",
       "title": "Activity",
-      "url": "https://github.com/alvroble/secp256k1-embedded/commit/undefined"
+      "url": "https://github.com/diybitcoinhardware/secp256k1-embedded/commit/undefined"
     },
     {
       "id": "5831432915",
@@ -209,11 +209,11 @@
       "id": "4570451396",
       "type": "ForkEvent",
       "created_at": "2025-11-10T09:40:46Z",
-      "repo": "alvroble/micropython",
-      "repo_url": "https://github.com/alvroble/micropython",
+      "repo": "micropython/micropython",
+      "repo_url": "https://github.com/micropython/micropython",
       "action": "forked",
       "title": "Activity",
-      "url": "https://github.com/alvroble/micropython/commit/undefined"
+      "url": "https://github.com/micropython/micropython/commit/undefined"
     }
   ],
   "repositories": [
@@ -281,6 +281,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 3477919789,
+        "number": 815,
+        "title": "[fix] Transaction handling when PSBT does not contain wallet fingerprint",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/815",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2025-10-02T15:15:20Z",
+        "updated_at": "2025-12-01T17:02:08Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 2751164936,
         "number": 636,
         "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
@@ -316,19 +329,6 @@
         "state": "open",
         "created_at": "2024-09-03T16:01:02Z",
         "updated_at": "2025-10-25T09:19:53Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 3477919789,
-        "number": 815,
-        "title": "[fix] Transaction handling when PSBT does not contain wallet fingerprint",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/815",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2025-10-02T15:15:20Z",
-        "updated_at": "2025-10-13T19:27:49Z",
         "closed_at": null,
         "merged_at": null
       },
