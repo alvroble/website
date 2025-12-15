@@ -3,18 +3,58 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2025-12-14T03:27:56.917Z"
+    "last_updated": "2025-12-15T03:40:32.813Z"
   },
   "statistics": {
-    "total_contributions": 22,
+    "total_contributions": 26,
     "total_repositories": 19,
-    "total_stars": 5,
+    "total_stars": 2,
     "total_forks": 0,
     "total_issues": 0,
     "total_pull_requests": 1,
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "5293286045",
+      "type": "PublicEvent",
+      "created_at": "2019-06-06T11:07:58Z",
+      "repo": "alvroble/Speckle_RaspberryPi",
+      "repo_url": "https://github.com/alvroble/Speckle_RaspberryPi",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/Speckle_RaspberryPi/commit/undefined"
+    },
+    {
+      "id": "5293283267",
+      "type": "PublicEvent",
+      "created_at": "2019-06-13T10:18:45Z",
+      "repo": "alvroble/AndroidSpeckleBLE",
+      "repo_url": "https://github.com/alvroble/AndroidSpeckleBLE",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/AndroidSpeckleBLE/commit/undefined"
+    },
+    {
+      "id": "6716656726",
+      "type": "PushEvent",
+      "created_at": "2025-12-14T12:31:14Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/710209bf7a48aeeb431544ed1e61a87ac3d3faae"
+    },
+    {
+      "id": "6716613684",
+      "type": "PushEvent",
+      "created_at": "2025-12-14T12:28:02Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/bd916a2f8c1fdff5f6cd349651c8c5b6c5d2bf4c"
+    },
     {
       "id": "5225852963",
       "type": "PullRequestEvent",
@@ -174,49 +214,21 @@
       "action": "created",
       "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
       "url": "https://github.com/SeedSigner/seedsigner/pull/636"
-    },
-    {
-      "id": "4853006172",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-11-22T21:16:35Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[l10n] Exception str does not need to be translated",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/825"
-    },
-    {
-      "id": "6120390813",
-      "type": "PushEvent",
-      "created_at": "2025-11-20T19:05:19Z",
-      "repo": "alvroble/lvgl_micropython",
-      "repo_url": "https://github.com/alvroble/lvgl_micropython",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/lvgl_micropython/commit/692a587de97b31fecaca2144acfbddb11d9a857c"
-    },
-    {
-      "id": "4764677167",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-11-18T21:55:01Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/636"
-    },
-    {
-      "id": "6058764262",
-      "type": "PushEvent",
-      "created_at": "2025-11-18T21:35:32Z",
-      "repo": "alvroble/lvgl_micropython",
-      "repo_url": "https://github.com/alvroble/lvgl_micropython",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/lvgl_micropython/commit/7c0f3e699be8afcb034072171ed3fe7fd142c95b"
     }
   ],
   "repositories": [
+    {
+      "id": 821708857,
+      "name": "seedsigner",
+      "full_name": "alvroble/seedsigner",
+      "description": "Use an air-gapped Raspberry Pi Zero to sign for Bitcoin transactions! (and do other cool stuff)",
+      "url": "https://github.com/alvroble/seedsigner",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "updated_at": "2025-12-14T12:28:07Z",
+      "is_fork": true
+    },
     {
       "id": 978259280,
       "name": "seedsigner-os",
@@ -227,18 +239,6 @@
       "stars": 0,
       "forks": 0,
       "updated_at": "2025-10-24T22:40:24Z",
-      "is_fork": true
-    },
-    {
-      "id": 821708857,
-      "name": "seedsigner",
-      "full_name": "alvroble/seedsigner",
-      "description": "Use an air-gapped Raspberry Pi Zero to sign for Bitcoin transactions! (and do other cool stuff)",
-      "url": "https://github.com/alvroble/seedsigner",
-      "language": "Python",
-      "stars": 0,
-      "forks": 0,
-      "updated_at": "2025-10-24T13:57:35Z",
       "is_fork": true
     },
     {
@@ -289,7 +289,7 @@
         "repo_url": "https://github.com/SeedSigner/seedsigner",
         "state": "open",
         "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-12-13T03:44:15Z",
+        "updated_at": "2025-12-14T12:31:15Z",
         "closed_at": null,
         "merged_at": null
       },
