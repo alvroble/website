@@ -3,11 +3,11 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-01-03T03:21:01.486Z"
+    "last_updated": "2026-01-04T03:49:57.662Z"
   },
   "statistics": {
-    "total_contributions": 37,
-    "total_repositories": 18,
+    "total_contributions": 40,
+    "total_repositories": 19,
     "total_stars": 2,
     "total_forks": 0,
     "total_issues": 0,
@@ -16,14 +16,44 @@
   },
   "recent_activity": [
     {
-      "id": "5543319945",
+      "id": "7159409198",
+      "type": "PushEvent",
+      "created_at": "2026-01-03T15:24:02Z",
+      "repo": "alvroble/esp_idf_dev_environment",
+      "repo_url": "https://github.com/alvroble/esp_idf_dev_environment",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/esp_idf_dev_environment/commit/a9f19a7dd2fec232c1c60ff99f43bae121712e62"
+    },
+    {
+      "id": "5587523180",
       "type": "WatchEvent",
-      "created_at": "2025-12-30T14:13:38Z",
+      "created_at": "2026-01-03T15:06:19Z",
       "repo": "odudex/Kern",
       "repo_url": "https://github.com/odudex/Kern",
       "action": "started",
       "title": "Activity",
       "url": "https://github.com/odudex/Kern/commit/undefined"
+    },
+    {
+      "id": "7158781681",
+      "type": "CreateEvent",
+      "created_at": "2026-01-03T14:35:12Z",
+      "repo": "alvroble/esp_idf_dev_environment",
+      "repo_url": "https://github.com/alvroble/esp_idf_dev_environment",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/esp_idf_dev_environment/commit/undefined"
+    },
+    {
+      "id": "5587368831",
+      "type": "ForkEvent",
+      "created_at": "2026-01-03T14:34:05Z",
+      "repo": "kdmukai/esp_idf_dev_environment",
+      "repo_url": "https://github.com/kdmukai/esp_idf_dev_environment",
+      "action": "forked",
+      "title": "Activity",
+      "url": "https://github.com/kdmukai/esp_idf_dev_environment/commit/undefined"
     },
     {
       "id": "6888752014",
@@ -184,36 +214,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/website/commit/b09766a0584bd52b3c1102c0bec9a491f4c87709"
-    },
-    {
-      "id": "5328428838",
-      "type": "PublicEvent",
-      "created_at": "2025-08-28T17:16:37Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/undefined"
-    },
-    {
-      "id": "5323441467",
-      "type": "PullRequestEvent",
-      "created_at": "2025-12-16T02:32:13Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "merged",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "6732402923",
-      "type": "PushEvent",
-      "created_at": "2025-12-15T07:55:17Z",
-      "repo": "alvroble/NetConfigLens",
-      "repo_url": "https://github.com/alvroble/NetConfigLens",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/NetConfigLens/commit/c9b07d0cbd3514e5b0beec71f2cd7512b14b6a76"
     }
   ],
   "repositories": [
