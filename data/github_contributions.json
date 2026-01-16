@@ -3,15 +3,15 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-01-15T03:40:10.610Z"
+    "last_updated": "2026-01-16T03:38:30.670Z"
   },
   "statistics": {
-    "total_contributions": 22,
+    "total_contributions": 12,
     "total_repositories": 19,
     "total_stars": 2,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 1,
+    "total_pull_requests": 0,
     "total_commits": 0
   },
   "recent_activity": [
@@ -134,86 +134,6 @@
       "action": "created",
       "title": "Activity",
       "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "5343243586",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2025-12-16T19:21:22Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "5343242904",
-      "type": "PullRequestReviewCommentEvent",
-      "created_at": "2025-12-16T19:21:20Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "5343162908",
-      "type": "IssueCommentEvent",
-      "created_at": "2025-12-16T19:16:55Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Performance] Scrolling text can cause delays moving to next screen",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/849"
-    },
-    {
-      "id": "6778609906",
-      "type": "PushEvent",
-      "created_at": "2025-12-16T16:58:13Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/e33656811704bce2ceab0dbf44bd935e80e021d0"
-    },
-    {
-      "id": "6765209994",
-      "type": "PushEvent",
-      "created_at": "2025-12-16T08:48:54Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/c76643e0e2ac4ccfbea98cfcb7d14579dba16481"
-    },
-    {
-      "id": "6765192332",
-      "type": "PushEvent",
-      "created_at": "2025-12-16T08:48:10Z",
-      "repo": "alvroble/hugo-theme-console",
-      "repo_url": "https://github.com/alvroble/hugo-theme-console",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/hugo-theme-console/commit/0e7206f62e2339546dd297bb171e22d0af4fbfc1"
-    },
-    {
-      "id": "6765041638",
-      "type": "PushEvent",
-      "created_at": "2025-12-16T08:41:53Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/bf13f3d4f2dce80a5f450d9e15275fbcf98f35fb"
-    },
-    {
-      "id": "6764990659",
-      "type": "PushEvent",
-      "created_at": "2025-12-16T08:39:48Z",
-      "repo": "alvroble/website",
-      "repo_url": "https://github.com/alvroble/website",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/website/commit/b09766a0584bd52b3c1102c0bec9a491f4c87709"
     }
   ],
   "repositories": [
