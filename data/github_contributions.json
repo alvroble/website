@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-02-01T04:28:43.609Z"
+    "last_updated": "2026-02-02T04:23:33.426Z"
   },
   "statistics": {
-    "total_contributions": 18,
+    "total_contributions": 20,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "6223972439",
+      "type": "IssueCommentEvent",
+      "created_at": "2026-02-01T17:30:12Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Replace deprecated os.popen() call with Python's built-in file handling",
+      "url": "https://github.com/SeedSigner/seedsigner/pull/865"
+    },
+    {
+      "id": "6223630093",
+      "type": "PullRequestReviewCommentEvent",
+      "created_at": "2026-02-01T17:00:36Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
     {
       "id": "6207521866",
       "type": "WatchEvent",
