@@ -3,18 +3,58 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-02-03T04:14:05.053Z"
+    "last_updated": "2026-02-04T04:10:27.657Z"
   },
   "statistics": {
-    "total_contributions": 16,
+    "total_contributions": 20,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 0,
+    "total_pull_requests": 1,
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "6282959104",
+      "type": "PullRequestEvent",
+      "created_at": "2026-02-03T17:57:41Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "opened",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
+    {
+      "id": "8097498449",
+      "type": "CreateEvent",
+      "created_at": "2026-02-03T17:43:41Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/undefined"
+    },
+    {
+      "id": "8097423637",
+      "type": "PushEvent",
+      "created_at": "2026-02-03T17:41:14Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/d557afffb1bb5fb6d2d922e3ca926514e038e1cd"
+    },
+    {
+      "id": "6282506186",
+      "type": "IssueCommentEvent",
+      "created_at": "2026-02-03T17:40:23Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "created",
+      "title": "[Security] Pillow 10.0.1 in requirements.txt - CVE-2024-28219",
+      "url": "https://github.com/SeedSigner/seedsigner/issues/870"
+    },
     {
       "id": "6223972439",
       "type": "IssueCommentEvent",
@@ -186,7 +226,7 @@
       "language": "Python",
       "stars": 0,
       "forks": 0,
-      "updated_at": "2026-01-18T08:34:13Z",
+      "updated_at": "2026-02-03T17:46:57Z",
       "is_fork": true
     },
     {
@@ -240,6 +280,19 @@
   ],
   "pull_requests": {
     "open": [
+      {
+        "id": 3892477249,
+        "number": 871,
+        "title": "Bump Pillow version to 10.3.0",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/871",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2026-02-03T17:57:41Z",
+        "updated_at": "2026-02-03T17:57:41Z",
+        "closed_at": null,
+        "merged_at": null
+      },
       {
         "id": 2751164936,
         "number": 636,
