@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-02-17T04:19:39.235Z"
+    "last_updated": "2026-02-18T04:21:36.617Z"
   },
   "statistics": {
-    "total_contributions": 20,
+    "total_contributions": 15,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
@@ -164,56 +164,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/esp-idf-lvgl-lab/commit/undefined"
-    },
-    {
-      "id": "5885830301",
-      "type": "WatchEvent",
-      "created_at": "2026-01-18T09:43:29Z",
-      "repo": "originalankur/maptoposter",
-      "repo_url": "https://github.com/originalankur/maptoposter",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/originalankur/maptoposter/commit/undefined"
-    },
-    {
-      "id": "5885719104",
-      "type": "IssueCommentEvent",
-      "created_at": "2026-01-18T09:22:15Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "[Refactor] Screenshot generator: Better state management via mocks",
-      "url": "https://github.com/SeedSigner/seedsigner/pull/860"
-    },
-    {
-      "id": "5885624423",
-      "type": "PullRequestReviewEvent",
-      "created_at": "2026-01-18T09:04:48Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "5885624400",
-      "type": "PullRequestReviewCommentEvent",
-      "created_at": "2026-01-18T09:04:47Z",
-      "repo": "SeedSigner/seedsigner",
-      "repo_url": "https://github.com/SeedSigner/seedsigner",
-      "action": "created",
-      "title": "Activity",
-      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
-    },
-    {
-      "id": "7580089687",
-      "type": "PushEvent",
-      "created_at": "2026-01-18T08:34:08Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/56d23154313bd17be66f16235b8d20d712af83c0"
     }
   ],
   "repositories": [
