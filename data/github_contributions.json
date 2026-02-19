@@ -3,18 +3,28 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-02-18T04:21:36.617Z"
+    "last_updated": "2026-02-19T04:20:15.558Z"
   },
   "statistics": {
-    "total_contributions": 15,
+    "total_contributions": 16,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
     "total_issues": 0,
-    "total_pull_requests": 1,
+    "total_pull_requests": 2,
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "6693695938",
+      "type": "PullRequestEvent",
+      "created_at": "2026-02-19T01:50:27Z",
+      "repo": "SeedSigner/seedsigner",
+      "repo_url": "https://github.com/SeedSigner/seedsigner",
+      "action": "merged",
+      "title": "Activity",
+      "url": "https://github.com/SeedSigner/seedsigner/commit/undefined"
+    },
     {
       "id": "6282959104",
       "type": "PullRequestEvent",
@@ -231,19 +241,6 @@
   "pull_requests": {
     "open": [
       {
-        "id": 3892477249,
-        "number": 871,
-        "title": "Bump Pillow version to 10.3.0",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/871",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2026-02-03T17:57:41Z",
-        "updated_at": "2026-02-06T20:06:16Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
         "id": 2751164936,
         "number": 636,
         "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
@@ -336,6 +333,19 @@
       }
     ],
     "merged": [
+      {
+        "id": 3892477249,
+        "number": 871,
+        "title": "Bump Pillow version to 10.3.0",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/871",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "closed",
+        "created_at": "2026-02-03T17:57:41Z",
+        "updated_at": "2026-02-19T01:51:05Z",
+        "closed_at": "2026-02-19T01:50:27Z",
+        "merged_at": "2026-02-19T01:50:27Z"
+      },
       {
         "id": 3477919789,
         "number": 815,
