@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-02-19T04:20:15.558Z"
+    "last_updated": "2026-02-20T04:14:29.726Z"
   },
   "statistics": {
-    "total_contributions": 16,
+    "total_contributions": 18,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
@@ -15,6 +15,26 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "8611333853",
+      "type": "PushEvent",
+      "created_at": "2026-02-19T19:17:42Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/3c99eb11552613fbc2eac009566d0d49099884dc"
+    },
+    {
+      "id": "8611125467",
+      "type": "PushEvent",
+      "created_at": "2026-02-19T19:10:14Z",
+      "repo": "alvroble/seedsigner",
+      "repo_url": "https://github.com/alvroble/seedsigner",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/seedsigner/commit/bdcc7c288f802369aba46e9261efe43adfb5d6aa"
+    },
     {
       "id": "6693695938",
       "type": "PullRequestEvent",
@@ -186,7 +206,7 @@
       "language": "Python",
       "stars": 0,
       "forks": 0,
-      "updated_at": "2026-02-03T17:46:57Z",
+      "updated_at": "2026-02-19T19:10:20Z",
       "is_fork": true
     },
     {
@@ -241,6 +261,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 2447226799,
+        "number": 586,
+        "title": "Display toast when seed already exists",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/586",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2024-08-04T17:24:51Z",
+        "updated_at": "2026-02-19T19:17:42Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 2751164936,
         "number": 636,
         "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
@@ -250,19 +283,6 @@
         "state": "open",
         "created_at": "2024-12-19T18:35:59Z",
         "updated_at": "2025-12-20T22:03:40Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 2447226799,
-        "number": 586,
-        "title": "Display toast when seed already exists",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/586",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-08-04T17:24:51Z",
-        "updated_at": "2025-12-13T03:42:53Z",
         "closed_at": null,
         "merged_at": null
       },
