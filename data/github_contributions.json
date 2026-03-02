@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-03-01T04:21:37.473Z"
+    "last_updated": "2026-03-02T04:13:10.669Z"
   },
   "statistics": {
     "total_contributions": 10,
@@ -181,6 +181,19 @@
   "pull_requests": {
     "open": [
       {
+        "id": 2751164936,
+        "number": 636,
+        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
+        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
+        "repo": "SeedSigner/seedsigner",
+        "repo_url": "https://github.com/SeedSigner/seedsigner",
+        "state": "open",
+        "created_at": "2024-12-19T18:35:59Z",
+        "updated_at": "2026-03-01T19:20:03Z",
+        "closed_at": null,
+        "merged_at": null
+      },
+      {
         "id": 2447226799,
         "number": 586,
         "title": "Display toast when seed already exists",
@@ -190,19 +203,6 @@
         "state": "open",
         "created_at": "2024-08-04T17:24:51Z",
         "updated_at": "2026-02-20T14:30:53Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 2751164936,
-        "number": 636,
-        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2025-12-20T22:03:40Z",
         "closed_at": null,
         "merged_at": null
       },
