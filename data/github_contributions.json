@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-04-27T05:22:35.665Z"
+    "last_updated": "2026-04-28T05:29:36.061Z"
   },
   "statistics": {
     "total_contributions": 9,
@@ -171,32 +171,6 @@
   "pull_requests": {
     "open": [
       {
-        "id": 2751164936,
-        "number": 636,
-        "title": "[Feature] Add SLIP-39 Shamir's secret sharing import support for SeedSigner",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/636",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-12-19T18:35:59Z",
-        "updated_at": "2026-03-01T19:20:03Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 2447226799,
-        "number": 586,
-        "title": "Display toast when seed already exists",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/586",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "open",
-        "created_at": "2024-08-04T17:24:51Z",
-        "updated_at": "2026-02-20T14:30:53Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
         "id": 3552179810,
         "number": 820,
         "title": "[WIP] [POC] Entropy generation with snake game",
@@ -219,19 +193,6 @@
         "state": "open",
         "created_at": "2025-08-05T16:29:02Z",
         "updated_at": "2025-08-15T14:28:10Z",
-        "closed_at": null,
-        "merged_at": null
-      },
-      {
-        "id": 3273027297,
-        "number": 99,
-        "title": "[WIP] Update embit to be compatible with secp256k1 v0.7.0 ",
-        "url": "https://github.com/diybitcoinhardware/embit/pull/99",
-        "repo": "diybitcoinhardware/embit",
-        "repo_url": "https://github.com/diybitcoinhardware/embit",
-        "state": "open",
-        "created_at": "2025-07-29T10:09:10Z",
-        "updated_at": "2025-08-04T16:04:38Z",
         "closed_at": null,
         "merged_at": null
       },
@@ -303,19 +264,6 @@
         "merged_at": "2025-12-10T20:26:05Z"
       },
       {
-        "id": 3274377144,
-        "number": 796,
-        "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/796",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "closed",
-        "created_at": "2025-07-29T17:11:10Z",
-        "updated_at": "2025-10-23T19:21:19Z",
-        "closed_at": "2025-10-23T19:21:19Z",
-        "merged_at": "2025-10-23T19:21:19Z"
-      },
-      {
         "id": 3036199337,
         "number": 750,
         "title": "[Bugfix] Remove unnecessary sleep time in `toast.py` to speed up Screenshot Generator",
@@ -355,19 +303,6 @@
         "merged_at": "2025-09-02T18:49:38Z"
       },
       {
-        "id": 3284781352,
-        "number": 3,
-        "title": "Enables CLI feature needed by uniffi_bindgen_main()",
-        "url": "https://github.com/TheBlueMatt/dnssec-prover/pull/3",
-        "repo": "TheBlueMatt/dnssec-prover",
-        "repo_url": "https://github.com/TheBlueMatt/dnssec-prover",
-        "state": "closed",
-        "created_at": "2025-08-01T18:29:20Z",
-        "updated_at": "2025-08-02T21:18:33Z",
-        "closed_at": "2025-08-02T21:18:33Z",
-        "merged_at": "2025-08-02T21:18:33Z"
-      },
-      {
         "id": 3150773068,
         "number": 774,
         "title": "[l10n] Remove libraqm workarounds and enforce libraqm dependency",
@@ -379,32 +314,6 @@
         "updated_at": "2025-07-11T09:13:33Z",
         "closed_at": "2025-07-11T01:02:10Z",
         "merged_at": "2025-07-11T01:02:10Z"
-      },
-      {
-        "id": 2645882560,
-        "number": 625,
-        "title": "[Enhancement] Messaging toast refactor",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/625",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "closed",
-        "created_at": "2024-11-09T10:00:42Z",
-        "updated_at": "2025-02-28T20:53:37Z",
-        "closed_at": "2025-02-28T20:53:36Z",
-        "merged_at": "2025-02-28T20:53:36Z"
-      },
-      {
-        "id": 2382224682,
-        "number": 563,
-        "title": "[Enhancement] Add exit dialog when entering passphrase",
-        "url": "https://github.com/SeedSigner/seedsigner/pull/563",
-        "repo": "SeedSigner/seedsigner",
-        "repo_url": "https://github.com/SeedSigner/seedsigner",
-        "state": "closed",
-        "created_at": "2024-06-30T12:05:52Z",
-        "updated_at": "2024-07-14T01:56:38Z",
-        "closed_at": "2024-07-14T01:56:38Z",
-        "merged_at": "2024-07-14T01:56:38Z"
       }
     ],
     "closed": [
