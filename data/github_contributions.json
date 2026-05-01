@@ -3,18 +3,109 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-04-30T05:29:20.189Z"
+    "last_updated": "2026-05-01T05:40:52.737Z"
   },
   "statistics": {
-    "total_contributions": 0,
+    "total_contributions": 9,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
-    "total_issues": 0,
+    "total_issues": 2,
     "total_pull_requests": 0,
     "total_commits": 0
   },
-  "recent_activity": [],
+  "recent_activity": [
+    {
+      "id": "8571963000",
+      "type": "IssuesEvent",
+      "created_at": "2026-04-19T15:29:03Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": "closed",
+      "title": "feat(micropython): bridge stress tests — event overflow, rapid navigation, concurrent frames",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/issues/96"
+    },
+    {
+      "id": "8571962956",
+      "type": "IssueCommentEvent",
+      "created_at": "2026-04-19T15:29:02Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": "created",
+      "title": "feat(micropython): bridge stress tests — event overflow, rapid navigation, concurrent frames",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/issues/96"
+    },
+    {
+      "id": "10760570907",
+      "type": "PushEvent",
+      "created_at": "2026-04-19T05:58:05Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/2932c2447d56137711e7b7752544f234a5949cb5"
+    },
+    {
+      "id": "10735434873",
+      "type": "PushEvent",
+      "created_at": "2026-04-18T06:34:03Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/4864c3bc2487fe812dc1c1671d3df082eeb92c0b"
+    },
+    {
+      "id": "8552384936",
+      "type": "IssuesEvent",
+      "created_at": "2026-04-18T06:34:04Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": "closed",
+      "title": "feat(micropython): MicroPython user module wrapping C bindings with Pythonic API",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/issues/95"
+    },
+    {
+      "id": "8358547745",
+      "type": "WatchEvent",
+      "created_at": "2026-04-13T13:25:12Z",
+      "repo": "fweiss/yocto-rpi-vm",
+      "repo_url": "https://github.com/fweiss/yocto-rpi-vm",
+      "action": "started",
+      "title": "Activity",
+      "url": "https://github.com/fweiss/yocto-rpi-vm/commit/undefined"
+    },
+    {
+      "id": "8317658274",
+      "type": "WatchEvent",
+      "created_at": "2026-04-11T19:27:57Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": "started",
+      "title": "Activity",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/undefined"
+    },
+    {
+      "id": "8294959902",
+      "type": "WatchEvent",
+      "created_at": "2026-04-10T17:37:57Z",
+      "repo": "JuliusBrussee/caveman",
+      "repo_url": "https://github.com/JuliusBrussee/caveman",
+      "action": "started",
+      "title": "Activity",
+      "url": "https://github.com/JuliusBrussee/caveman/commit/undefined"
+    },
+    {
+      "id": "8294573059",
+      "type": "MemberEvent",
+      "created_at": "2026-04-10T17:24:45Z",
+      "repo": "alvroblaw/seedsigner-lvgl",
+      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
+      "action": "added",
+      "title": "Activity",
+      "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/undefined"
+    }
+  ],
   "repositories": [
     {
       "id": 821708857,
