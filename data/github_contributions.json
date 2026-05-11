@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-05-10T05:35:59.743Z"
+    "last_updated": "2026-05-11T05:57:32.380Z"
   },
   "statistics": {
-    "total_contributions": 9,
+    "total_contributions": 7,
     "total_repositories": 21,
     "total_stars": 2,
     "total_forks": 0,
@@ -82,26 +82,6 @@
       "repo": "alvroblaw/seedsigner-lvgl",
       "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
       "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/undefined"
-    },
-    {
-      "id": "8294959902",
-      "type": "WatchEvent",
-      "created_at": "2026-04-10T17:37:57Z",
-      "repo": "JuliusBrussee/caveman",
-      "repo_url": "https://github.com/JuliusBrussee/caveman",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/JuliusBrussee/caveman/commit/undefined"
-    },
-    {
-      "id": "8294573059",
-      "type": "MemberEvent",
-      "created_at": "2026-04-10T17:24:45Z",
-      "repo": "alvroblaw/seedsigner-lvgl",
-      "repo_url": "https://github.com/alvroblaw/seedsigner-lvgl",
-      "action": "added",
       "title": "Activity",
       "url": "https://github.com/alvroblaw/seedsigner-lvgl/commit/undefined"
     }
