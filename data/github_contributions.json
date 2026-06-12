@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-06-11T06:47:23.782Z"
+    "last_updated": "2026-06-12T06:40:15.336Z"
   },
   "statistics": {
     "total_contributions": 12,
@@ -19,11 +19,11 @@
       "id": "10477384933",
       "type": "WatchEvent",
       "created_at": "2026-06-09T19:31:06Z",
-      "repo": "briangaoo/totem",
-      "repo_url": "https://github.com/briangaoo/totem",
+      "repo": "thebriangao/totem",
+      "repo_url": "https://github.com/thebriangao/totem",
       "action": "started",
       "title": "Activity",
-      "url": "https://github.com/briangaoo/totem/commit/undefined"
+      "url": "https://github.com/thebriangao/totem/commit/undefined"
     },
     {
       "id": "10475126419",
