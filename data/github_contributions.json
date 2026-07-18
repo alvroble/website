@@ -3,7 +3,7 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-07-17T05:12:26.107Z"
+    "last_updated": "2026-07-18T04:47:28.605Z"
   },
   "statistics": {
     "total_contributions": 2,
@@ -221,6 +221,19 @@
         "merged_at": "2025-12-10T20:26:05Z"
       },
       {
+        "id": 3365797717,
+        "number": 2,
+        "title": "Add GitHub Actions workflow for automated Hugo site deployment to GitHub Pages",
+        "url": "https://github.com/alvroble/website/pull/2",
+        "repo": "alvroble/website",
+        "repo_url": "https://github.com/alvroble/website",
+        "state": "closed",
+        "created_at": "2025-08-29T07:29:30Z",
+        "updated_at": "2025-11-24T22:03:02Z",
+        "closed_at": "2025-08-29T07:38:04Z",
+        "merged_at": "2025-08-29T07:38:04Z"
+      },
+      {
         "id": 3274377144,
         "number": 796,
         "title": "[Refactor] Enable auto-detection of screenshot generator renderer",
@@ -337,6 +350,19 @@
         "created_at": "2025-06-09T20:34:24Z",
         "updated_at": "2025-08-31T06:59:20Z",
         "closed_at": "2025-08-31T06:59:20Z",
+        "merged_at": null
+      },
+      {
+        "id": 3365776597,
+        "number": 1,
+        "title": "Implement comprehensive deployment solution for Hugo website",
+        "url": "https://github.com/alvroble/website/pull/1",
+        "repo": "alvroble/website",
+        "repo_url": "https://github.com/alvroble/website",
+        "state": "closed",
+        "created_at": "2025-08-29T07:22:00Z",
+        "updated_at": "2025-08-29T07:31:53Z",
+        "closed_at": "2025-08-29T07:22:35Z",
         "merged_at": null
       },
       {
