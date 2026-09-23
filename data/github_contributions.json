@@ -3,167 +3,217 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-09-22T07:19:34.401Z"
+    "last_updated": "2026-09-23T07:21:29.328Z"
   },
   "statistics": {
-    "total_contributions": 15,
-    "total_repositories": 24,
+    "total_contributions": 50,
+    "total_repositories": 25,
     "total_stars": 2,
     "total_forks": 2,
     "total_issues": 0,
-    "total_pull_requests": 0,
+    "total_pull_requests": 10,
     "total_commits": 0
   },
   "recent_activity": [
     {
-      "id": "21426200843",
-      "type": "PushEvent",
-      "created_at": "2026-09-17T18:24:42Z",
-      "repo": "alvroble/seedsigner",
-      "repo_url": "https://github.com/alvroble/seedsigner",
+      "id": "21903588486",
+      "type": "DeleteEvent",
+      "created_at": "2026-09-22T20:39:12Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
       "action": null,
       "title": "Activity",
-      "url": "https://github.com/alvroble/seedsigner/commit/85cd9a0211eeb22962a5e65ba349ef6efa91bb57"
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
     },
     {
-      "id": "15247393380",
-      "type": "IssueCommentEvent",
-      "created_at": "2026-09-17T19:56:13Z",
-      "repo": "alvroble/pydnssec-prover",
-      "repo_url": "https://github.com/alvroble/pydnssec-prover",
-      "action": "created",
-      "title": "Port the Rust delegation walk, add the NSEC/NSEC3 engine, and a differential harness",
-      "url": "https://github.com/alvroble/pydnssec-prover/pull/2"
-    },
-    {
-      "id": "14972910646",
-      "type": "WatchEvent",
-      "created_at": "2026-09-14T06:24:37Z",
-      "repo": "Quad4-Software/MeshChatX",
-      "repo_url": "https://github.com/Quad4-Software/MeshChatX",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/Quad4-Software/MeshChatX/commit/undefined"
-    },
-    {
-      "id": "14972718410",
-      "type": "WatchEvent",
-      "created_at": "2026-09-14T06:20:31Z",
-      "repo": "liamcottle/reticulum-meshchat",
-      "repo_url": "https://github.com/liamcottle/reticulum-meshchat",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/liamcottle/reticulum-meshchat/commit/undefined"
-    },
-    {
-      "id": "14447126419",
-      "type": "WatchEvent",
-      "created_at": "2026-09-04T17:10:57Z",
-      "repo": "mindcrypt/libros",
-      "repo_url": "https://github.com/mindcrypt/libros",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/mindcrypt/libros/commit/undefined"
-    },
-    {
-      "id": "19984487117",
+      "id": "21891990396",
       "type": "PushEvent",
-      "created_at": "2026-09-02T17:25:04Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
+      "created_at": "2026-09-22T20:39:08Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
       "action": null,
       "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/a0ddff184eb9f42f2659f7cb622f7f17c980ebf8"
+      "url": "https://github.com/alvroble/savepoint-signer/commit/afc40e03b2725b54b117ff24789761f81a9d8747"
     },
     {
-      "id": "19970625633",
-      "type": "PushEvent",
-      "created_at": "2026-09-03T09:09:01Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/33159896d5f5cfab0483dcac9632c762221e9031"
-    },
-    {
-      "id": "19837019493",
-      "type": "PushEvent",
-      "created_at": "2026-09-02T17:23:56Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/6bd045eb9f0ae2fb0591170c51737a1255524933"
-    },
-    {
-      "id": "19830464153",
-      "type": "PushEvent",
-      "created_at": "2026-09-02T16:53:57Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/e9f2aeba4be0a80350f0355e5c9dbdda7c03888e"
-    },
-    {
-      "id": "19810405364",
-      "type": "PushEvent",
-      "created_at": "2026-09-01T19:47:28Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/98894d697397d03bda866406c120318deab63fd8"
-    },
-    {
-      "id": "19808917671",
-      "type": "PushEvent",
-      "created_at": "2026-09-01T19:36:42Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/442fc6b88641c3d897e7279871ec725a5bdd21bb"
-    },
-    {
-      "id": "19759950245",
-      "type": "PushEvent",
-      "created_at": "2026-09-01T20:31:43Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/693a046db68cb3c718c71230befc38340c1ba3d3"
-    },
-    {
-      "id": "19733097539",
-      "type": "PushEvent",
-      "created_at": "2026-09-01T20:15:09Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/fe5fc7a89fec7c24083c44643a92a718a665bb5c"
-    },
-    {
-      "id": "14196335675",
-      "type": "WatchEvent",
-      "created_at": "2026-09-01T09:59:06Z",
-      "repo": "Gentleman-Programming/gentle-ai",
-      "repo_url": "https://github.com/Gentleman-Programming/gentle-ai",
-      "action": "started",
-      "title": "Activity",
-      "url": "https://github.com/Gentleman-Programming/gentle-ai/commit/undefined"
-    },
-    {
-      "id": "19447138983",
+      "id": "21891190112",
       "type": "CreateEvent",
-      "created_at": "2026-08-30T17:19:15Z",
-      "repo": "alvroble/ESP32-S3-ePaper-1.54G",
-      "repo_url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G",
+      "created_at": "2026-09-22T20:21:09Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
       "action": null,
       "title": "Activity",
-      "url": "https://github.com/alvroble/ESP32-S3-ePaper-1.54G/commit/undefined"
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21889027261",
+      "type": "CreateEvent",
+      "created_at": "2026-09-22T21:19:38Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21887182631",
+      "type": "DeleteEvent",
+      "created_at": "2026-09-22T20:54:48Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21884793319",
+      "type": "DeleteEvent",
+      "created_at": "2026-09-22T20:51:45Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21883642513",
+      "type": "CreateEvent",
+      "created_at": "2026-09-22T20:38:29Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21876899582",
+      "type": "CreateEvent",
+      "created_at": "2026-09-22T20:52:40Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21876211615",
+      "type": "DeleteEvent",
+      "created_at": "2026-09-22T21:20:27Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21876161588",
+      "type": "PushEvent",
+      "created_at": "2026-09-22T21:19:54Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/0a59e07f382a869d63067f44a4dabf2b02b3ac05"
+    },
+    {
+      "id": "21876122352",
+      "type": "PushEvent",
+      "created_at": "2026-09-22T21:20:24Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/ea44dc5a3b7eae2c6b3b0a76aa9aaa346ada7c42"
+    },
+    {
+      "id": "21875926233",
+      "type": "PushEvent",
+      "created_at": "2026-09-22T20:51:40Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/843a525fd1a06998fda1b247c36aa7c28fcc61fd"
+    },
+    {
+      "id": "15538954089",
+      "type": "PullRequestEvent",
+      "created_at": "2026-09-22T21:20:23Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": "merged",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "15538945124",
+      "type": "PullRequestEvent",
+      "created_at": "2026-09-22T21:20:15Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": "opened",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21875368250",
+      "type": "CreateEvent",
+      "created_at": "2026-09-22T20:42:03Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21874827433",
+      "type": "CreateEvent",
+      "created_at": "2026-09-22T20:32:54Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21873737377",
+      "type": "DeleteEvent",
+      "created_at": "2026-09-22T20:52:04Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "21873726587",
+      "type": "PushEvent",
+      "created_at": "2026-09-22T20:52:55Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/d7f1f282d66126f13cf0fc762a4d4d61af9ff669"
+    },
+    {
+      "id": "15537327151",
+      "type": "PullRequestEvent",
+      "created_at": "2026-09-22T20:52:54Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": "merged",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
+    },
+    {
+      "id": "15537319472",
+      "type": "PullRequestEvent",
+      "created_at": "2026-09-22T20:52:47Z",
+      "repo": "alvroble/savepoint-signer",
+      "repo_url": "https://github.com/alvroble/savepoint-signer",
+      "action": "opened",
+      "title": "Activity",
+      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
     }
   ],
   "repositories": [
@@ -201,18 +251,6 @@
       "stars": 1,
       "forks": 1,
       "updated_at": "2025-08-07T10:51:03Z",
-      "is_fork": false
-    },
-    {
-      "id": 1006050876,
-      "name": "SeedSigner-WorldMap",
-      "full_name": "alvroble/SeedSigner-WorldMap",
-      "description": "A Python tool to generate a dark-themed world map that highlights all countries whose official languages are supported by the latest SeedSigner release.",
-      "url": "https://github.com/alvroble/SeedSigner-WorldMap",
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "updated_at": "2025-06-21T11:59:24Z",
       "is_fork": false
     }
   ],
@@ -311,6 +349,71 @@
       }
     ],
     "merged": [
+      {
+        "id": 5545387832,
+        "number": 5,
+        "title": "Document Croco Cartridge hardware options",
+        "url": "https://github.com/alvroble/savepoint-signer/pull/5",
+        "repo": "alvroble/savepoint-signer",
+        "repo_url": "https://github.com/alvroble/savepoint-signer",
+        "state": "closed",
+        "created_at": "2026-09-22T21:20:15Z",
+        "updated_at": "2026-09-22T21:20:27Z",
+        "closed_at": "2026-09-22T21:20:23Z",
+        "merged_at": "2026-09-22T21:20:23Z"
+      },
+      {
+        "id": 5545120337,
+        "number": 4,
+        "title": "Add New Bark signer walkthrough video",
+        "url": "https://github.com/alvroble/savepoint-signer/pull/4",
+        "repo": "alvroble/savepoint-signer",
+        "repo_url": "https://github.com/alvroble/savepoint-signer",
+        "state": "closed",
+        "created_at": "2026-09-22T20:52:47Z",
+        "updated_at": "2026-09-22T20:54:47Z",
+        "closed_at": "2026-09-22T20:52:54Z",
+        "merged_at": "2026-09-22T20:52:54Z"
+      },
+      {
+        "id": 5544958981,
+        "number": 1,
+        "title": "Fix CI container shell",
+        "url": "https://github.com/alvroble/savepoint-signer/pull/1",
+        "repo": "alvroble/savepoint-signer",
+        "repo_url": "https://github.com/alvroble/savepoint-signer",
+        "state": "closed",
+        "created_at": "2026-09-22T20:36:56Z",
+        "updated_at": "2026-09-22T20:52:04Z",
+        "closed_at": "2026-09-22T20:39:09Z",
+        "merged_at": "2026-09-22T20:39:09Z"
+      },
+      {
+        "id": 5545107146,
+        "number": 3,
+        "title": "Fix musl host test linking in CI",
+        "url": "https://github.com/alvroble/savepoint-signer/pull/3",
+        "repo": "alvroble/savepoint-signer",
+        "repo_url": "https://github.com/alvroble/savepoint-signer",
+        "state": "closed",
+        "created_at": "2026-09-22T20:51:29Z",
+        "updated_at": "2026-09-22T20:51:45Z",
+        "closed_at": "2026-09-22T20:51:39Z",
+        "merged_at": "2026-09-22T20:51:39Z"
+      },
+      {
+        "id": 5544978261,
+        "number": 2,
+        "title": "Add logo",
+        "url": "https://github.com/alvroble/savepoint-signer/pull/2",
+        "repo": "alvroble/savepoint-signer",
+        "repo_url": "https://github.com/alvroble/savepoint-signer",
+        "state": "closed",
+        "created_at": "2026-09-22T20:38:48Z",
+        "updated_at": "2026-09-22T20:39:11Z",
+        "closed_at": "2026-09-22T20:39:07Z",
+        "merged_at": "2026-09-22T20:39:07Z"
+      },
       {
         "id": 3892477249,
         "number": 871,
