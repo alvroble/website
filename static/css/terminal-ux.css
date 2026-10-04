@@ -1,0 +1,96 @@
+/* Terminal chrome stays monospace; long articles use a comfortable reading face. */
+body.terminal {
+  --background-color: #111412;
+  --font-color: #e3e8e1;
+  --primary-color: #edb66d;
+  --secondary-color: #a5b3a7;
+  --accent-color: #edb66d;
+  --code-bg-color: #1d241f;
+  --border-color: #354039;
+  --muted: #a5b3a7;
+  --surface: #181d19;
+  color: var(--font-color);
+  background: var(--background-color);
+  margin: 0;
+  padding: 40px 24px;
+  line-height: 1.75;
+  font-size: 16px;
+}
+.terminal-window { max-width: 1060px; margin: auto; border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; background: var(--surface); box-shadow: 0 24px 80px #0003; }
+.window-bar { display: flex; gap: 18px; align-items: center; padding: 12px 24px; background: #ffffff04; border-bottom: 1px solid var(--border-color); color: var(--muted); font-size: 12px; }
+.window-dots { letter-spacing: 4px; color: #91ad92; }
+.session-label { margin-left: auto; }
+.shell-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 28px 40px 20px; }
+.shell-brand { font-weight: bold; text-decoration: none; color: var(--font-color); }
+.shell-brand span { color: var(--muted); font-weight: normal; }
+.shell-header nav { display: flex; gap: 8px; flex-wrap: wrap; }
+.shell-header nav a { padding: 8px 12px; border-radius: 4px; color: var(--muted); text-decoration: none; }
+.shell-header nav a[aria-current] { background: #edb66d12; color: var(--primary-color); }
+.shell-header nav a:hover { background: #ffffff08; color: var(--font-color); }
+.shell-location { padding: 0 40px 24px; border-bottom: 1px solid var(--border-color); color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.shell-location > span:first-child { color: #a6cba5; }
+.cursor { color: var(--primary-color); }
+main { padding: 40px; }
+body h1, body h2, body h3, body h4 { color: var(--font-color) !important; line-height: 1.35; letter-spacing: -.025em; }
+body.terminal h1 { font-size: clamp(26px, 4vw, 38px); margin: 0 0 24px; padding: 0; }
+body h1::after { display: none; }
+body.terminal h2 { font-size: 23px; margin: 32px 0 16px; }
+body.terminal h3 { font-size: 19px; }
+body strong, body b, body .content strong { color: inherit !important; }
+body a { color: var(--primary-color); text-underline-offset: 4px; }
+body a:hover { background: transparent; color: var(--primary-color); text-decoration: underline; text-shadow: none; }
+.eyebrow, .post-meta, .back-link { font-size: 13px; color: var(--muted); }
+.eyebrow { margin: 0 0 20px; }
+.intro { margin-bottom: 56px; max-width: 730px; }
+.intro-text { font-size: 20px; line-height: 1.65; }
+.accent { color: var(--primary-color); }
+.quick-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 24px; font-size: 14px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; }
+body.terminal .section-heading h2 { margin: 0 0 16px; }
+.section-heading > a { font-size: 13px; white-space: nowrap; }
+.post-entry { padding: 26px 0; border-top: 1px solid var(--border-color); }
+body.terminal .post-entry h2 { margin: 10px 0; font-size: 21px; }
+.post-entry h2 a { color: var(--font-color); text-decoration: none; }
+.post-entry p { max-width: 72ch; margin: 8px 0 16px; color: var(--muted); }
+.post-meta { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px; }
+.read-link { font-size: 13px; }
+.reading-content { max-width: 760px; margin: 24px auto 40px; }
+.reading-content .content { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; line-height: 1.85; }
+.reading-content .content h2, .reading-content .content h3 { margin-top: 2em; }
+.content > * { animation: none; }
+.content a { text-decoration: underline; border: none; }
+.content img { max-width: 100%; height: auto; box-shadow: none; }
+.content figure { margin: 24px 0; }
+.content pre, .content pre:not([class*="language-"]):not(.highlight pre) { background: var(--code-bg-color); padding: 18px; overflow-x: auto; white-space: pre; border: 1px solid var(--border-color); border-radius: 4px; font-family: var(--mono-font-stack); font-size: 14px; line-height: 1.65; }
+.content pre code { padding: 0 !important; background: transparent !important; color: inherit !important; }
+.content code { overflow-wrap: anywhere; }
+body .content blockquote { border-color: #a6cba5 !important; box-shadow: none !important; border-radius: 0 !important; }
+body .content blockquote::before { display: none !important; }
+.content ol li::before { display: none; }
+.content table { display: block; overflow-x: auto; border-radius: 0; box-shadow: none; }
+.content table th { background: var(--code-bg-color); color: var(--font-color); }
+.toc { border: 1px solid var(--border-color); padding: 14px 20px; margin: 28px 0; font-size: 14px; }
+.toc summary { cursor: pointer; color: var(--primary-color); }
+.toc ul { padding-left: 20px; }
+.shell-footer { display: flex; flex-wrap: wrap; gap: 18px; padding: 20px 40px; border-top: 1px solid var(--border-color); color: var(--muted); font-size: 11px; }
+.shell-footer > span { margin-right: auto; }
+:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 4px; }
+.skip-link { position: absolute; top: -100px; left: 24px; background: var(--surface); padding: 12px; z-index: 10; }
+.skip-link:focus { top: 8px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 650px) {
+  body.terminal { padding: 12px 10px; font-size: 14px; }
+  .window-bar { padding: 10px 16px; font-size: 10px; gap: 10px; }
+  .session-label { display: none; }
+  .shell-header { padding: 20px; flex-direction: column; align-items: flex-start; gap: 14px; }
+  .shell-header nav { gap: 2px; }
+  .shell-header nav a { padding: 8px; }
+  .shell-location { padding: 0 20px 20px; font-size: 11px; }
+  main, .command-shell { padding: 28px 20px; }
+  .intro-text { font-size: 18px; }
+  .intro { margin-bottom: 40px; }
+  .reading-content .content { font-size: 17px; }
+  .shell-footer { padding: 20px; }
+  .shell-footer > span { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

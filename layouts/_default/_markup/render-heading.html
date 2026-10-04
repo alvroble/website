@@ -1,0 +1,5 @@
+{{ $level := .Level }}
+{{ if and (eq .Page.Section "posts") (strings.Contains .Page.RawContent "\n# ") }}
+  {{ $level = math.Min 6 (add .Level 1) }}
+{{ end }}
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>

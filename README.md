@@ -52,6 +52,16 @@ hugo --minify
 
 The built site will be in the `public/` directory.
 
+### Testing the experience locally
+
+Run `hugo server --baseURL http://localhost:1313/ --disableFastRender --renderToMemory`
+and open http://localhost:1313/. Changes reload automatically; press Ctrl+C to stop.
+
+- Browse Home, Posts, Contributions, and About using the navigation links.
+- Open a long post and expand **On this page** to jump to a section.
+- Check a narrow mobile window, keyboard Tab navigation, and **Skip to content**.
+- Navigation and articles work without JavaScript.
+
 ## Project Structure
 
 ```
@@ -109,6 +119,14 @@ The contributions page is designed to display:
 *Note: GitHub API integration is planned for future updates*
 
 ## Deployment
+
+The live website is https://alvroble.com/, hosted on GitHub Pages with DNS managed by Cloudflare.
+In repository Settings → Pages, use **GitHub Actions** and set the custom domain to
+`alvroble.com`. The deployment workflow uses the URL supplied by GitHub Pages;
+`hugo.toml` also uses this domain for local production builds.
+
+To restore publication if GitHub returns “site not found”, run **Deploy Hugo site
+to Pages** manually from the repository's Actions tab.
 
 ### Automated GitHub Pages Deployment
 
