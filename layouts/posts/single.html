@@ -1,0 +1,10 @@
+{{ define "main" }}
+<a class="back-link" href="{{ "posts/" | relURL }}">← All posts</a>
+<article class="reading-content">
+  <h1>{{ .Title }}</h1>
+  <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time><span>{{ .ReadingTime }} min read</span></p>
+  {{ if gt (len .Fragments.Headings) 0 }}<details class="toc"><summary>On this page</summary>{{ .TableOfContents }}</details>{{ end }}
+  <div class="content">{{ .Content }}</div>
+</article>
+<a class="back-link" href="{{ "posts/" | relURL }}">← Keep exploring the posts</a>
+{{ end }}

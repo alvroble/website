@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{ "hugo-theme-console/css/console.css" | absURL }}">
     <!-- Custom theme colors -->
     <link rel="stylesheet" href="{{ "css/custom-colors.css" | absURL }}?v={{ now.Unix }}">
+    <link rel="stylesheet" href="{{ "css/terminal-ux.css" | relURL }}">
     <!-- Contributions page styles -->
     {{ if eq .Section "contributions" }}
     <link rel="stylesheet" href="{{ "css/contributions.css" | absURL }}">
@@ -35,32 +36,23 @@
     {{- partial "header.html" . -}}
 </head>
 <body class="terminal {{ partial "theme-class.html" . }}">
-    <div class="container">
-        <div class="terminal-nav">
-          <header class="terminal-logo">
-            <div class="logo terminal-prompt">
-              {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-              {{ $.Scratch.Add "path" .Site.BaseURL }}
-              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>:~# 
-              {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}</div></header>
-          <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                {{ range $index, $element := .Site.Params.navlinks }}
-                <li property="itemListElement" typeof="ListItem">
-                    <a property="item" typeof="WebPage" href="{{ absURL .url }}">
-                    <span property="name">{{ .name }}</span></a>
-                    <meta property="position" content="{{ add $index 1}}" />
-                </li>
-                {{ end }}
-            </ul>
-          </nav>
-        </div>
-    </div>
-
-    <div class="container {{ .Site.Params.animateStyle }}" >
-        {{ block "main" . }}
-        {{ end }}
-        {{ partial "footer.html" . }}
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="terminal-window">
+      <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>alvroble.com — personal shell</span><span class="session-label">visitor session</span></div>
+      <header class="shell-header">
+        <a class="shell-brand" href="{{ "/" | relURL }}">alvroble<span>@web</span></a>
+        <nav aria-label="Main navigation">
+          {{ $current := .RelPermalink }}
+          {{ range .Site.Params.navlinks }}
+          <a href="{{ .url | relURL }}" {{ if or (eq $current .url) (and (ne .url "/") (hasPrefix $current .url)) }}aria-current="page"{{ end }}>{{ .name }}</a>
+          {{ end }}
+        </nav>
+      </header>
+      <div class="shell-location"><span>visitor@alvroble</span>:<span>~{{ .RelPermalink }}</span> $ <span class="cursor" aria-hidden="true">▌</span></div>
+      <main id="main" tabindex="-1">
+        {{ block "main" . }}{{ end }}
+      </main>
+      <footer class="shell-footer"><span>Built with Hugo. Read at your own pace.</span><a href="{{ "feed.xml" | relURL }}">RSS feed ↗</a><a href="#main">Back to top ↑</a></footer>
     </div>
   </body>
 </html>

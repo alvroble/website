@@ -1,4 +1,4 @@
-baseURL = 'https://alvroble.github.io/'
+baseURL = 'https://alvroble.com/'
 languageCode = 'en-us'
 title = 'alvroble'
 theme = 'hugo-theme-console'
@@ -15,6 +15,9 @@ buildExpired = false
 
 # Markup settings - GitHub-compatible
 [markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
