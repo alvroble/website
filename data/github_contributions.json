@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-10-04T07:46:34.721Z"
+    "last_updated": "2026-10-05T08:21:51.984Z"
   },
   "statistics": {
-    "total_contributions": 48,
+    "total_contributions": 46,
     "total_repositories": 25,
     "total_stars": 2,
     "total_forks": 2,
@@ -15,6 +15,16 @@
     "total_commits": 0
   },
   "recent_activity": [
+    {
+      "id": "22960602826",
+      "type": "PushEvent",
+      "created_at": "2026-10-04T10:54:13Z",
+      "repo": "alvroble/website",
+      "repo_url": "https://github.com/alvroble/website",
+      "action": null,
+      "title": "Activity",
+      "url": "https://github.com/alvroble/website/commit/b114aed99eefeb36269e3f72161ef1fc84d90aaa"
+    },
     {
       "id": "22098214017",
       "type": "PushEvent",
@@ -202,16 +212,6 @@
       "repo": "alvroble/savepoint-signer",
       "repo_url": "https://github.com/alvroble/savepoint-signer",
       "action": "merged",
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "15538945124",
-      "type": "PullRequestEvent",
-      "created_at": "2026-09-22T21:20:15Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": "opened",
       "title": "Activity",
       "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
     }
