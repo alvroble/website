@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.LanguageCode }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ .Site.Title }}{{ $url := urls.Parse .Page.Permalink }}{{ $url.Path }}</title>
-    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with or .Description .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <meta name="googlebot" content="index,follow,snippet,archive">
@@ -36,23 +38,24 @@
     {{- partial "header.html" . -}}
 </head>
 <body class="terminal {{ partial "theme-class.html" . }}">
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">{{ i18n "skip" }}</a>
     <div class="terminal-window">
-      <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>alvroble.com — personal shell</span><span class="session-label">visitor session</span></div>
+      <div class="window-bar"><span class="window-dots" aria-hidden="true">● ● ●</span><span>alvroble.com — {{ i18n "shell" }}</span><span class="session-label">{{ i18n "session" }}</span></div>
       <header class="shell-header">
-        <a class="shell-brand" href="{{ "/" | relURL }}">alvroble<span>@web</span></a>
-        <nav aria-label="Main navigation">
+        <a class="shell-brand" href="{{ "/" | relLangURL }}">alvroble<span>@web</span></a>
+        <nav aria-label="{{ i18n "nav" }}">
           {{ $current := .RelPermalink }}
           {{ range .Site.Params.navlinks }}
-          <a href="{{ .url | relURL }}" {{ if or (eq $current .url) (and (ne .url "/") (hasPrefix $current .url)) }}aria-current="page"{{ end }}>{{ .name }}</a>
+          <a href="{{ .url | relLangURL }}" {{ if or (eq $current (.url | relLangURL)) (and (ne .url "/") (hasPrefix $current (.url | relLangURL))) }}aria-current="page"{{ end }}>{{ i18n (.name | lower) }}</a>
           {{ end }}
         </nav>
+        {{ partial "language-switcher.html" . }}
       </header>
       <div class="shell-location"><span>visitor@alvroble</span>:<span>~{{ .RelPermalink }}</span> $ <span class="cursor" aria-hidden="true">▌</span></div>
       <main id="main" tabindex="-1">
         {{ block "main" . }}{{ end }}
       </main>
-      <footer class="shell-footer"><span>Built with Hugo. Read at your own pace.</span><a href="{{ "feed.xml" | relURL }}">RSS feed ↗</a><a href="#main">Back to top ↑</a></footer>
+      <footer class="shell-footer"><span>{{ i18n "footer" }}</span><a href="{{ "feed.xml" | relLangURL }}">{{ i18n "rss" }}</a><a href="#main">{{ i18n "top" }}</a></footer>
     </div>
   </body>
 </html>

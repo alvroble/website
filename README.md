@@ -177,3 +177,34 @@ This project is open source and available under the [MIT License](LICENSE).
 - [Hugo](https://gohugo.io/) - Static site generator
 - [Zen Theme](https://github.com/frjo/hugo-theme-zen) - Clean, minimal theme
 - [GitHub Pages](https://pages.github.com/) - Hosting platform
+
+## English and Spanish
+
+English keeps the existing URLs; Spanish lives under `/es/`. The header's
+**English / Español** links open the same page in the other language. For a
+category without a matching translation, they open that language's home page.
+Navigation, dates, reading labels, metadata, RSS, pages, and all current posts
+are localized. Titles and descriptions fetched from GitHub remain as authored
+in their source repositories.
+
+Add a translation beside the original: `index.es.md` beside `index.md`, or
+`_index.es.md` beside `_index.md`. Keep the same bundle directory and date.
+Translate titles, descriptions, prose, image descriptions, and captions;
+retain commands, identifiers, addresses, and the exact English labels shown by
+external tools. Shared bundle media are resolved by `article-content.html`;
+Spanish diagrams use their own `.es.svg` files without duplicating photographs.
+UI messages live in `i18n/en.toml` and `i18n/es.toml`.
+
+Build and check the bilingual output:
+
+```sh
+hugo --minify --destination /tmp/website-bilingual-check
+python3 scripts/check-translations.py /tmp/website-bilingual-check
+```
+
+Before publishing a translation, compare each section with the original,
+including its technical limits and caveats. Check both language directions on
+home, section, and article pages, plus a narrow viewport. To remove this feature,
+remove the Spanish content and diagrams, language configuration, dictionaries,
+and translation partials, and restore the localized templates and header CSS
+together. No generated output or GitHub data needs to be changed.

@@ -98,3 +98,8 @@ body .content blockquote::before { display: none !important; }
   .shell-footer > span { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+
+.shell-header { flex-wrap: wrap; }
+.shell-header .language-switcher { gap: 2px; border: 1px solid var(--border-color); border-radius: 5px; font-size: 13px; }
+.shell-header .language-switcher a { padding: 6px 10px; }
+.language-switcher a[aria-current] { font-weight: bold; }

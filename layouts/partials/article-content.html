@@ -1,0 +1,11 @@
+{{/* Shared bundle media can retain the default language's resource URL.
+     Resolve both Markdown and raw HTML references instead of assuming /es/ copies. */}}
+{{ $content := .Content }}
+{{ range .Resources }}
+  {{ $url := .RelPermalink }}
+  {{ $name := .Name }}
+  {{ range slice "src" "href" "poster" }}
+    {{ $content = replace $content (printf `%s="%s"` . $name) (printf `%s="%s"` . $url) }}
+  {{ end }}
+{{ end }}
+{{ return ($content | safeHTML) }}

@@ -1,0 +1,104 @@
+[skip]
+other = "Skip to content"
+
+[shell]
+other = "personal shell"
+
+[session]
+other = "visitor session"
+
+[nav]
+other = "Main navigation"
+
+[language]
+other = "Language"
+
+[home]
+other = "Home"
+
+[posts]
+other = "Posts"
+
+[contributions]
+other = "Contributions"
+
+[about]
+other = "About"
+
+[footer]
+other = "Built with Hugo. Read at your own pace."
+
+[rss]
+other = "RSS feed ↗"
+
+[top]
+other = "Back to top ↑"
+
+[hello]
+other = "Hi, I’m Alvaro"
+
+[intro]
+other = "Electronics & networking engineer, software builder, and Bitcoin enthusiast based in Spain."
+
+[corner]
+other = "This is my corner of the web. Notes on things I learn, projects I contribute to, and ideas worth sharing."
+
+[readPosts]
+other = "Read the posts →"
+
+[moreAbout]
+other = "More about me →"
+
+[latest]
+other = "Latest posts"
+
+[all]
+other = "View all →"
+
+[empty]
+other = "No posts yet. Check back soon."
+
+[allPosts]
+other = "← All posts"
+
+[reading]
+other = "min read"
+
+[toc]
+other = "On this page"
+
+[explore]
+other = "← Keep exploring the posts"
+
+[read]
+other = "Read post →"
+
+[updated]
+other = "Last updated:"
+
+[openPR]
+other = "Open Pull Requests"
+
+[merged]
+other = "Recently Merged"
+
+[repos]
+other = "Repositories"
+
+[noData]
+other = "GitHub contributions data is not available. Please check back later or contact the site administrator."
+
+[notFound]
+other = "Page not found"
+
+[notFoundText]
+other = "The page you requested could not be found."
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[series]
+other = "Series"

@@ -14,7 +14,7 @@
         <img src="{{ $githubData.user.avatar_url }}" alt="{{ $githubData.user.username }}" class="profile-avatar">
         <div class="profile-info">
           <h2><a href="{{ $githubData.user.profile_url }}" target="_blank">@{{ $githubData.user.username }}</a></h2>
-          <p class="last-updated">Last updated: {{ $githubData.user.last_updated | time.Format "January 2, 2006 at 3:04 PM MST" }}</p>
+          <p class="last-updated">{{ i18n "updated" }} {{ $githubData.user.last_updated | time.Format ":date_long" }}</p>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
       </div>
       <div class="stat-card">
         <div class="stat-number">{{ $githubData.statistics.total_repositories }}</div>
-        <div class="stat-label">Repositories</div>
+        <div class="stat-label">{{ i18n "repos" }}</div>
       </div>
       <div class="stat-card">
         <div class="stat-number">{{ $githubData.statistics.total_stars }}</div>
@@ -70,7 +70,7 @@
               <span class="activity-repo">
                 <a href="{{ .repo_url }}" target="_blank">{{ .repo }}</a>
               </span>
-              <span class="activity-time">{{ .created_at | time.Format "Jan 2, 2006" }}</span>
+              <span class="activity-time">{{ .created_at | time.Format ":date_medium" }}</span>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
     <section class="pull-requests">
       {{ if $githubData.pull_requests.open }}
       <div class="pr-section">
-        <h3>Open Pull Requests</h3>
+        <h3>{{ i18n "openPR" }}</h3>
         <div class="pr-list">
           {{ range $githubData.pull_requests.open }}
           <div class="pr-item open">
@@ -96,7 +96,7 @@
               <div class="pr-meta">
                 <span class="pr-repo">{{ .repo }}</span>
                 <span class="pr-number">#{{ .number }}</span>
-                <span class="pr-date">{{ .created_at | time.Format "Jan 2, 2006" }}</span>
+                <span class="pr-date">{{ .created_at | time.Format ":date_medium" }}</span>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@
 
       {{ if $githubData.pull_requests.merged }}
       <div class="pr-section">
-        <h3>Recently Merged</h3>
+        <h3>{{ i18n "merged" }}</h3>
         <div class="pr-list">
           {{ range first 5 $githubData.pull_requests.merged }}
           <div class="pr-item merged">
@@ -119,7 +119,7 @@
               <div class="pr-meta">
                 <span class="pr-repo">{{ .repo }}</span>
                 <span class="pr-number">#{{ .number }}</span>
-                <span class="pr-date">{{ .merged_at | time.Format "Jan 2, 2006" }}</span>
+                <span class="pr-date">{{ .merged_at | time.Format ":date_medium" }}</span>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
     <!-- Repositories Section -->
     {{ if $githubData.repositories }}
     <section class="repositories">
-      <h2>Repositories</h2>
+      <h2>{{ i18n "repos" }}</h2>
       <div class="repo-grid">
         {{ range first 12 $githubData.repositories }}
         <div class="repo-card">
@@ -151,7 +151,7 @@
           <div class="repo-stats">
             <span class="repo-stat">⭐ {{ .stars }}</span>
             <span class="repo-stat">🍴 {{ .forks }}</span>
-            <span class="repo-updated">{{ .updated_at | time.Format "Jan 2" }}</span>
+            <span class="repo-updated">{{ .updated_at | time.Format ":date_medium" }}</span>
           </div>
         </div>
         {{ end }}
@@ -161,7 +161,7 @@
 
   {{ else }}
     <div class="no-data">
-      <p>GitHub contributions data is not available. Please check back later or contact the site administrator.</p>
+      <p>{{ i18n "noData" }}</p>
     </div>
   {{ end }}
 

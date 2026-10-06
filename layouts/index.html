@@ -1,16 +1,16 @@
 {{ define "main" }}
 <p class="eyebrow">$ whoami</p>
 <section class="intro">
-  <h1>Hi, I'm Alvaro<span class="accent">.</span></h1>
-  <p class="intro-text">Electronics & networking engineer, software builder, and Bitcoin enthusiast based in Spain.</p>
-  <p>This is my corner of the web. Notes on things I learn, projects I contribute to, and ideas worth sharing.</p>
-  <div class="quick-links"><a href="{{ "posts/" | relURL }}">Read the posts →</a><a href="{{ "about/" | relURL }}">More about me →</a></div>
+  <h1>{{ i18n "hello" }}<span class="accent">.</span></h1>
+  <p class="intro-text">{{ i18n "intro" }}</p>
+  <p>{{ i18n "corner" }}</p>
+  <div class="quick-links"><a href="{{ "posts/" | relLangURL }}">{{ i18n "readPosts" }}</a><a href="{{ "about/" | relLangURL }}">{{ i18n "moreAbout" }}</a></div>
 </section>
 <section aria-labelledby="latest-posts">
-  <div class="section-heading"><h2 id="latest-posts">Latest posts</h2><a href="{{ "posts/" | relURL }}">View all →</a></div>
+  <div class="section-heading"><h2 id="latest-posts">{{ i18n "latest" }}</h2><a href="{{ "posts/" | relLangURL }}">{{ i18n "all" }}</a></div>
   <p class="eyebrow">$ ls ~/posts --latest</p>
   {{ range first 3 (where (where .Site.RegularPages "Section" "posts") "Params.private" "ne" true) }}
     {{ partial "post-entry.html" . }}
-  {{ else }}<p>No posts yet. Check back soon.</p>{{ end }}
+  {{ else }}<p>{{ i18n "empty" }}</p>{{ end }}
 </section>
 {{ end }}

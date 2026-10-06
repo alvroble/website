@@ -1,5 +1,6 @@
 baseURL = 'https://alvroble.com/'
-languageCode = 'en-us'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 title = 'alvroble'
 theme = 'hugo-theme-console'
 
@@ -104,3 +105,14 @@ buildExpired = false
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
+
+[languages.en]
+  languageCode = "en-US"
+  languageName = "English"
+  weight = 1
+[languages.es]
+  languageCode = "es-ES"
+  languageName = "Español"
+  weight = 2
+  [languages.es.params]
+    description = "Web personal de Álvaro: desarrollador, entusiasta de Bitcoin y colaborador de proyectos de código abierto"

@@ -10,7 +10,7 @@ description = "SeedSigner + BIP-353: Human-Readable Bitcoin Payments"
 
 Bitcoin’s address system has always presented a paradox. On one hand, addresses are designed for efficiency and compactness; on the other, their opaque encoding makes them nearly impossible to use directly without relying on copy-paste or QR codes. This usability gap has fueled proposals over the years to give Bitcoin payments a human-readable layer. From BIP-21/BIP-321 URIs to BIP-70’s payment protocol, and more recently LNURL and Lightning Address, the community has continued to experiment with bridging human interaction and cryptographic correctness.
 
-[BIP-353 “DNS Payment Instructions”](https://github.com/bitcoin/bips/blob/master/bip-0353.mediawiki) is the latest step in this trajectory. It proposes a method to leverage the existing DNS infrastructure (specifically DNSSEC-secured records) as a globally deployed naming and authentication system for Bitcoin payment instructions. The result is the possibility to use a human-readable name (HRN), like alice.example.com, to resolve to a valid Bitcoin payment request, secured by cryptographic proofs rather than simple trust in a DNS server.
+[BIP-353 “DNS Payment Instructions”](https://github.com/bitcoin/bips/blob/master/bip-0353.mediawiki) is the latest step in this trajectory. It proposes a method to leverage the existing DNS infrastructure (specifically DNSSEC-secured records) as a globally deployed naming and authentication system for Bitcoin payment instructions. The result is the possibility to use a human-readable name (HRN), like alice@example.com, to resolve to a valid Bitcoin payment request, secured by cryptographic proofs rather than simple trust in a DNS server.
 
 For software wallets with network connectivity, integration of BIP-353 is relatively straightforward: resolve DNS records, verify DNSSEC, parse the payment instruction, and proceed. But the challenge becomes more interesting when we consider <span class="bitcoin-highlight">hardware wallets</span>, especially air-gapped ones like **[SeedSigner](https://seedsigner.com/)**. 
 
@@ -50,7 +50,7 @@ Each of these solutions improved usability but either fell short on adoption or 
 
 DNS is already the Internet’s canonical namespace. Every major Bitcoin service, exchange, and merchant owns domains, often with DNSSEC deployed. DNSSEC provides a chain of cryptographic signatures from the root zone down to the domain, enabling clients to verify that a DNS record was indeed published by the domain owner and not tampered with in transit.
 
-BIP-353 leverages this: payment instructions are published in DNS TXT records under the control of the domain owner. A wallet can query the DNS, fetch the TXT record, and verify the associated DNSSEC proofs. If the proof is valid, the wallet can trust that alice.example.com is indeed associated with the payment details specified.
+BIP-353 leverages this: payment instructions are published in DNS TXT records under the control of the domain owner. A wallet can query the DNS, fetch the TXT record, and verify the associated DNSSEC proofs. If the proof is valid, the wallet can trust that alice@example.com is indeed associated with the payment details specified.
 
 
 Crucially, DNSSEC provides cryptographic authenticity for the mapping between a domain and its published payment instruction. The trust model shifts away from “trust your recursive resolver or HTTPS server” toward “trust the DNSSEC chain of trust anchored in the root zone.” This still involves third parties (registrars, TLD operators, and the root key maintainers) but the guarantees are verifiable, cacheable, and resistant to MITM attacks. Unlike HTTPS, where CAs can (sometimes [silently](https://bugzilla.mozilla.org/show_bug.cgi?id=1883843#c10)) issue certificates, DNSSEC proofs can be validated offline and are explicitly tied to the cryptographic root of DNS (the trust anchors controlled by IANA).
@@ -71,14 +71,14 @@ This design provides a minimal but globally interoperable naming layer for Bitco
 BIP-353 is a thin resolution and authentication layer that connects human-readable names to existing Bitcoin URI semantics (BIP-21). The proposal can be understood in three components:
 
 **Human-Readable Name (HRN)**
-- A name such as alice.example.com is the entry point.
-- The HRN is simply a DNS label, not a new naming system.
+- A name such as alice@example.com is the entry point.
+- The HRN combines a user and a domain. For alice@example.com, the queried DNS name is alice.user._bitcoin-payment.example.com. This uses the existing DNS naming system.
 
 **Payment Instruction Records**
-- Payment details are published as DNS TXT records under the HRN.
+- Payment details are published in a DNS TXT record at the DNS name derived from the HRN.
 - Each TXT record contains a BIP-21/BIP-321 URI (e.g. <span class="bitcoin-highlight">bitcoin:bc1q…?amount=0.01&label=Donation</span>).
 - Optional fields like amount, label, and message are preserved exactly as in BIP-21/BIP-321.
-- Multiple TXT records can exist, letting a domain owner offer multiple payment options.
+- Other TXT records may exist at the same name, but only one may begin with `bitcoin:` (case-insensitively). Multiple matching records make the payment instructions invalid.
 
 **DNSSEC Proofs**
 - The authenticity of the TXT record is established via DNSSEC proofs.
@@ -114,7 +114,7 @@ Here a real-life example from Sparrow Wallet:
 <img style="max-width: 600px; height: auto;" alt="Sparrow Wallet Interface" src="images/sparrow.png" />
 </p>
 
-(2) **Embed in PSBT**: the coordinator software writes the proof into the PSBT per-output field <span class="bitcoin-highlight">PSBT_OUT_DNSSEC_PROOF</span> (format: 1-byte len + HRN string + RFC-9102 proof payload). The PSBT also contains outputs/amounts as usual.
+(2) **Embed in PSBT**: the coordinator software writes the proof into the PSBT per-output field <span class="bitcoin-highlight">PSBT_OUT_DNSSEC_PROOF</span> (format: one byte specifying the HRN length + the HRN without the ₿ prefix + the RFC-9102-formatted DNSSEC proof). The PSBT also contains outputs/amounts as usual.
 
 (3) **Transfer to signer**: the PSBT (now carrying the proof) is moved to the air-gapped signer (in SeedSigner's case by QR).
 
@@ -159,7 +159,9 @@ DNSSEC proofs contain RRSIG validity windows. Normally, a wallet checks that the
 
 Some argue (see [Keith Mukai & Matt Corallo debate on X](https://x.com/KeithMukai/status/1961838842924630301)) that freshness is less important than correctness: a proof validates the binding HRN → URI at a point in time, even if it later expires. Others counter that allowing stale proofs weakens security guarantees: a compromised desktop could embed a malicious HRN with a just-valid proof, and the signer would still accept it long after expiry.
 
-For SeedSigner, the pragmatic choice may be:
+> **Review clarification, October 6, 2026:** the options below reflect the article’s design discussion. The current [BIP-353 specification](https://github.com/bitcoin/bips/blob/master/bip-0353.mediawiki) requires checking the inception and expiry of every RRSIG. It only permits up to one hour past expiry when a delay between PSBT construction and signing is expected. Ignoring temporal validity therefore does not comply with the current specification.
+
+For SeedSigner, the design options discussed included:
 
 - **Cryptographic validation only**. SeedSigner validates the chain cryptographically, ignoring strict freshness (since it has no clock), although validity range could be shown to the user.
 - **Surface validity ranges**. Display the proof’s validity window in the UI, so users understand they may be signing against stale data.

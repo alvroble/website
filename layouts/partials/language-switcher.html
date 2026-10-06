@@ -1,0 +1,10 @@
+<nav class="language-switcher" aria-label="{{ i18n "language" }}">
+  {{ $page := . }}
+  {{ range .Sites }}
+    {{ $target := .Home }}
+    {{ range $page.AllTranslations }}
+      {{ if eq .Language.Lang $target.Language.Lang }}{{ $target = . }}{{ end }}
+    {{ end }}
+    <a href="{{ $target.RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}"{{ if eq .Language.Lang $page.Language.Lang }} aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
+  {{ end }}
+</nav>

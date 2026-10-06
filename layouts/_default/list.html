@@ -1,6 +1,6 @@
 {{ define "main" }}
 <p class="eyebrow">$ ls ~{{ .RelPermalink }}</p>
-<h1>{{ .Title }}</h1>
+<h1>{{ if eq .Kind "taxonomy" }}{{ i18n .Data.Plural }}{{ else }}{{ .Title }}{{ end }}</h1>
 <div class="content">{{ .Content }}</div>
 {{ range where .Pages "Params.private" "ne" true }}{{ partial "post-entry.html" . }}{{ end }}
 {{ end }}
