@@ -1,7 +1,7 @@
 +++
 title = "Savepoint Signer: A Bitcoin Side Quest for the Game Boy"
 date = "2026-10-05"
-draft = true
+draft = false
 categories = ["Development", "Bitcoin"]
 tags = ["bitcoin", "gameboy", "rp2350", "hardware", "open-source", "seedsigner"]
 description = "An offline Bitcoin signer on hardware without Wi-Fi or Bluetooth, hidden in Pokémon Crystal: the cypherpunk philosophy, architecture, and complete build-and-flash tutorial."
