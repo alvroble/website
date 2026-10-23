@@ -3,15 +3,15 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-10-22T07:06:26.595Z"
+    "last_updated": "2026-10-23T06:58:22.008Z"
   },
   "statistics": {
-    "total_contributions": 45,
+    "total_contributions": 14,
     "total_repositories": 25,
     "total_stars": 2,
     "total_forks": 2,
     "total_issues": 0,
-    "total_pull_requests": 10,
+    "total_pull_requests": 0,
     "total_commits": 0
   },
   "recent_activity": [
@@ -154,66 +154,6 @@
       "action": null,
       "title": "Activity",
       "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21887182631",
-      "type": "DeleteEvent",
-      "created_at": "2026-09-22T20:54:48Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21884793319",
-      "type": "DeleteEvent",
-      "created_at": "2026-09-22T20:51:45Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21883642513",
-      "type": "CreateEvent",
-      "created_at": "2026-09-22T20:38:29Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21876899582",
-      "type": "CreateEvent",
-      "created_at": "2026-09-22T20:52:40Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21876211615",
-      "type": "DeleteEvent",
-      "created_at": "2026-09-22T21:20:27Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21876161588",
-      "type": "PushEvent",
-      "created_at": "2026-09-22T21:19:54Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/0a59e07f382a869d63067f44a4dabf2b02b3ac05"
     }
   ],
   "repositories": [
