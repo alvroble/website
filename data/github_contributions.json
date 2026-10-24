@@ -3,10 +3,10 @@
     "username": "alvroble",
     "profile_url": "https://github.com/alvroble",
     "avatar_url": "https://avatars.githubusercontent.com/u/50918598?v=4",
-    "last_updated": "2026-10-23T06:58:22.008Z"
+    "last_updated": "2026-10-24T06:52:18.328Z"
   },
   "statistics": {
-    "total_contributions": 14,
+    "total_contributions": 10,
     "total_repositories": 25,
     "total_stars": 2,
     "total_forks": 2,
@@ -114,46 +114,6 @@
       "action": "created",
       "title": "[security] Store multiple verified derivation path entries per input/output; reject all decoy keys",
       "url": "https://github.com/SeedSigner/seedsigner/pull/1044"
-    },
-    {
-      "id": "21903588486",
-      "type": "DeleteEvent",
-      "created_at": "2026-09-22T20:39:12Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21891990396",
-      "type": "PushEvent",
-      "created_at": "2026-09-22T20:39:08Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/afc40e03b2725b54b117ff24789761f81a9d8747"
-    },
-    {
-      "id": "21891190112",
-      "type": "CreateEvent",
-      "created_at": "2026-09-22T20:21:09Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
-    },
-    {
-      "id": "21889027261",
-      "type": "CreateEvent",
-      "created_at": "2026-09-22T21:19:38Z",
-      "repo": "alvroble/savepoint-signer",
-      "repo_url": "https://github.com/alvroble/savepoint-signer",
-      "action": null,
-      "title": "Activity",
-      "url": "https://github.com/alvroble/savepoint-signer/commit/undefined"
     }
   ],
   "repositories": [
